@@ -30,6 +30,13 @@ function App() {
           >
             Body
           </Typography>
+          <Typography
+            variant="h4"
+            component="h4"
+            className="App__Header__Title"
+          >
+            Test
+          </Typography>
         </Container>
       </Box>
     </div>
