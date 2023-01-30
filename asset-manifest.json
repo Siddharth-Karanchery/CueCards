@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.360283d8.css",
-    "main.js": "/static/js/main.d222c070.js",
-    "static/js/787.3903a384.chunk.js": "/static/js/787.3903a384.chunk.js",
-    "index.html": "/index.html",
-    "main.360283d8.css.map": "/static/css/main.360283d8.css.map",
-    "main.d222c070.js.map": "/static/js/main.d222c070.js.map",
-    "787.3903a384.chunk.js.map": "/static/js/787.3903a384.chunk.js.map"
+    "main.css": "/CueCards/static/css/main.360283d8.css",
+    "main.js": "/CueCards/static/js/main.5d2719e1.js",
+    "static/js/787.3903a384.chunk.js": "/CueCards/static/js/787.3903a384.chunk.js",
+    "index.html": "/CueCards/index.html",
+    "main.360283d8.css.map": "/CueCards/static/css/main.360283d8.css.map",
+    "main.5d2719e1.js.map": "/CueCards/static/js/main.5d2719e1.js.map",
+    "787.3903a384.chunk.js.map": "/CueCards/static/js/787.3903a384.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.360283d8.css",
-    "static/js/main.d222c070.js"
+    "static/js/main.5d2719e1.js"
   ]
 }
