@@ -1,0 +1,15 @@
+.Navigation {
+  /* background-color: blue; */
+}
+.Navigation__Acc__Ele__details {
+  background-color: aqua;
+}
+.test {
+  background-color: "blue";
+  width: "98%";
+  display: "flex";
+  flex-direction: "column";
+  justify-content: "flex-start";
+  text-align: "left";
+  padding: "0 5px";
+}
