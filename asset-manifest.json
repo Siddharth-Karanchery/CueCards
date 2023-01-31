@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/CueCards/static/css/main.360283d8.css",
-    "main.js": "/CueCards/static/js/main.c5eb14ab.js",
+    "main.css": "/CueCards/static/css/main.a6e1830f.css",
+    "main.js": "/CueCards/static/js/main.e76c2d25.js",
     "static/js/787.3903a384.chunk.js": "/CueCards/static/js/787.3903a384.chunk.js",
     "index.html": "/CueCards/index.html",
-    "main.360283d8.css.map": "/CueCards/static/css/main.360283d8.css.map",
-    "main.c5eb14ab.js.map": "/CueCards/static/js/main.c5eb14ab.js.map",
+    "main.a6e1830f.css.map": "/CueCards/static/css/main.a6e1830f.css.map",
+    "main.e76c2d25.js.map": "/CueCards/static/js/main.e76c2d25.js.map",
     "787.3903a384.chunk.js.map": "/CueCards/static/js/787.3903a384.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.360283d8.css",
-    "static/js/main.c5eb14ab.js"
+    "static/css/main.a6e1830f.css",
+    "static/js/main.e76c2d25.js"
   ]
 }
