@@ -1,16 +1,14 @@
 import React from "react";
-import { Paper, Typography, Container } from "@mui/material";
+import { Typography, Container } from "@mui/material";
 import Flippy, { FrontSide, BackSide } from "react-flippy";
 import "./Title.css";
 
 import { overview } from "../../data/mockApi";
 
-function Title() {
-  const [isFlipped, setIsFlipped] = React.useState(false);
+import { useNavigate, createSearchParams } from "react-router-dom";
 
-  const clickHandler = () => {
-    setIsFlipped((prev) => !prev);
-  };
+function Title() {
+  const navigate = useNavigate();
 
   return (
     <>
@@ -37,7 +35,18 @@ function Title() {
           >
             {overview.map((chapter) => {
               return (
-                <Typography variant="Subtitle2">
+                <Typography
+                  variant="Subtitle2"
+                  sx={{ cursor: "pointer" }}
+                  onClick={() => {
+                    navigate({
+                      pathname: "/CueCards/chapter",
+                      search: `?${createSearchParams({
+                        cno: chapter.chapterNum,
+                      })}`,
+                    });
+                  }}
+                >
                   Chapter {chapter.chapterNum}: {chapter.chapterTitle}
                 </Typography>
               );

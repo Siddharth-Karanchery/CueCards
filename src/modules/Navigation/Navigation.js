@@ -9,11 +9,29 @@ import { Box, Container } from "@mui/system";
 import { RxEyeClosed, RxEyeOpen } from "react-icons/rx";
 import "./Navigation.css";
 
+import { useNavigate, createSearchParams } from "react-router-dom";
+
 function Navigation() {
   const [showSectionNames, setShowSectionNames] = React.useState(false);
+  const [expanded, setExpanded] = React.useState(false);
+
+  const navigate = useNavigate();
+
+  const handleChange = (element) => (isExpanded) => {
+    setExpanded(isExpanded ? element : false);
+  };
+
   const navigationEle = overview.map((chapter) => {
     return (
-      <Accordion className="Navigation__Acc__Ele">
+      <Accordion
+        className="Navigation__Acc__Ele"
+        expanded={expanded === chapter.chapterTitle}
+        onClick={
+          expanded === chapter.chapterTitle
+            ? handleChange(false)
+            : handleChange(chapter.chapterTitle)
+        }
+      >
         <AccordionSummary
           expandIcon={<ExpandMoreIcon />}
           aria-controls="panel1a-content"
@@ -22,13 +40,35 @@ function Navigation() {
           <Typography>Chapter No: {chapter.chapterNum}</Typography>
         </AccordionSummary>
         <AccordionDetails>
-          <Typography variant="h6">
+          <Typography
+            variant="h6"
+            sx={{ cursor: "pointer" }}
+            onClick={() => {
+              navigate({
+                pathname: "/CueCards/chapter",
+                search: `?${createSearchParams({
+                  cno: chapter.chapterNum,
+                })}`,
+              });
+            }}
+          >
             Chapter Title: {chapter.chapterTitle}
           </Typography>
           <Container class="test">
             {chapter.sections.map((section) => {
               return (
-                <Typography variant="subtitle2" sx={{ margin: "5px 0" }}>
+                <Typography
+                  variant="subtitle2"
+                  sx={{ margin: "5px 0", cursor: "pointer" }}
+                  onClick={() => {
+                    navigate({
+                      pathname: "/CueCards/section",
+                      search: `?${createSearchParams({
+                        sno: section.sectionNum,
+                      })}`,
+                    });
+                  }}
+                >
                   <b>Section {section.sectionNum}: </b>
                   {showSectionNames ? section.sectionTitle : null}
                 </Typography>

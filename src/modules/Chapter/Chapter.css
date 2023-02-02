@@ -1,0 +1,21 @@
+.chapter {
+  width: 100%;
+  height: 100%;
+  max-width: 150vh;
+}
+.chapter__body {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.chapter__body__section {
+  width: 25%;
+  padding: 10px 5px;
+  margin: 10px 5px;
+  height: auto;
+}
+.sectionText {
+  margin: 1rem 0;
+  font-size: 1.5rem;
+}
