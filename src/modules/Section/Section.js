@@ -11,9 +11,6 @@ function Section() {
 
   const sectionNum = searchParams.get("sno");
 
-  console.log("sectionData: ", sectionData);
-
-  console.log("searchParams.get('sno'): ", searchParams.get("sno"));
   const section = sectionData.filter(
     (section) => section.sectionNum == searchParams.get("sno")
   );
