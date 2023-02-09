@@ -16,10 +16,17 @@
   font-family: "Poppins", sans-serif;
 }
 .App__Header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
   min-height: 50%;
+  align-items: center;
 }
 .App__Header__Title {
   font-family: "Poppins", sans-serif;
+}
+.App__Drawer {
+  /* min-width: 10rem; */
 }
 .App__Body {
   min-width: 100%;
