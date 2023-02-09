@@ -1,0 +1,15 @@
+.section__nav {
+  min-width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.section__nav__ele {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-weight: bold;
+}
+.section__nav__ele:hover {
+  cursor: pointer;
+}

@@ -1,0 +1,8 @@
+import { newLine, indent1, indent2, indent3 } from "../constants";
+
+export const Section18 = `(1) Any person claiming to be the proprietor of a trade mark used or proposed to be used by him, who is desirous of registering it, shall apply in writing to the Registrar in the prescribed manner for the registration of his trade mark.
+${newLine}(2) A single application may be made for registration of a trade mark for different classes of goods and services and fee payable therefor shall be in respect of each such class of goods or services.
+${newLine}(3) Every application under sub-section (1) shall be filed in the office of the Trade Marks Registry within whose territorial limits the principal place of business in India of the applicant or in the case of joint applicants the principal place of business in India of the applicant whose name is first mentioned in the application as having a place of business in India, is situate:
+Provided that where the applicant or any of the joint applicants does not carry on business in India, the application shall be filed in the office of the Trade Marks Registry within whose territorial limits the place mentioned in the address for service in India as disclosed in the application, is situate.
+${newLine}(4) Subject to the provisions of this Act, the Registrar may refuse the application or may accept it absolutely or subject to such amendments, modifications, conditions or limitations, if any, as he may think fit.
+${newLine}(5) In the case of a refusal or conditional acceptance of an application, the Registrar shall record in writing the grounds for such refusal or conditional acceptance and the materials used by him in arriving at his decision.`;
