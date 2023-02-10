@@ -21,7 +21,14 @@ function Title() {
           height: "60%",
         }} /// these are optional style, it is not necessary
       >
-        <FrontSide>
+        <FrontSide
+          style={{
+            display: "flex",
+            flexDirection: "row",
+            alignItems: "center",
+            justifyContent: "center",
+          }}
+        >
           <Typography variant="h2">THE TRADE MARKS ACT, 1999</Typography>
         </FrontSide>
         <BackSide>

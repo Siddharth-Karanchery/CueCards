@@ -24,6 +24,7 @@ import HomeIcon from "@mui/icons-material/Home";
 import DownloadIcon from "@mui/icons-material/Download";
 import InfoIcon from "@mui/icons-material/Info";
 import About from "./modules/About/About";
+import MyErrorBoundary from "./modules/ErrorBoundary/ErrorBroundary";
 
 function App() {
   const [showMenu, setShowMenu] = React.useState(false);
@@ -46,107 +47,109 @@ function App() {
     <div className="App">
       <ThemeProvider theme={THEME}>
         <BrowserRouter>
-          <Container class="App__Header">
-            <FiMenu
-              size={30}
-              style={{ margin: "2rem", cursor: "pointer" }}
-              onClick={onMenuSelect}
-            />
-            <Typography
-              variant="h2"
-              component="h2"
-              className="App__Header__Title"
-            >
-              Cue Cards
-            </Typography>
-            <Link to={"/CueCards/"}>
-              <AiOutlineHome
+          <MyErrorBoundary>
+            <Container class="App__Header">
+              <FiMenu
                 size={30}
-                color="black"
-                style={{ margin: "1rem", cursor: "pointer" }}
+                style={{ margin: "2rem", cursor: "pointer" }}
+                onClick={onMenuSelect}
               />
-            </Link>
-          </Container>
-          <Drawer
-            anchor={"left"}
-            open={showMenu}
-            onClose={() => setShowMenu(false)}
-            className="App__Drawer"
-          >
-            <Box
-              sx={{ width: "250px" }}
-              role="presentation"
-              //   onClick={toggleDrawer(anchor, false)}
-              //   onKeyDown={toggleDrawer(anchor, false)}
-            >
-              <List sx={{ width: "250px" }}>
-                <Link
-                  to={"/CueCards/"}
-                  onClick={onMenuSelect}
-                  style={{ textDecoration: "none", color: "black" }}
-                >
-                  <ListItem disablePadding>
-                    <ListItemButton>
-                      <ListItemIcon>
-                        <HomeIcon />
-                      </ListItemIcon>
-                      <ListItemText primary={"Home"} />
-                    </ListItemButton>
-                  </ListItem>
-                </Link>
-                <Link
-                  to="https://drive.google.com/file/d/1cOsbatri2i5LvhZlmCbuEBXyeCJYkMyL/view?usp=share_link"
-                  target="_blank"
-                  download
-                  style={{ textDecoration: "none", color: "black" }}
-                >
-                  <ListItem disablePadding>
-                    <ListItemButton>
-                      <ListItemIcon>
-                        <DownloadIcon />
-                      </ListItemIcon>
-                      <ListItemText primary={"Download"} />
-                    </ListItemButton>
-                  </ListItem>
-                </Link>
-                <Link
-                  to={"/CueCards/about"}
-                  onClick={onMenuSelect}
-                  style={{ textDecoration: "none", color: "black" }}
-                >
-                  <ListItem disablePadding>
-                    <ListItemButton>
-                      <ListItemIcon>
-                        <InfoIcon />
-                      </ListItemIcon>
-                      <ListItemText primary={"About"} />
-                    </ListItemButton>
-                  </ListItem>
-                </Link>
-              </List>
-              <MenuList />
-            </Box>
-          </Drawer>
-          <Box className="App__Body">
-            <Box className="App__Body__Navigation">
               <Typography
-                variant="h4"
-                component="h4"
+                variant="h2"
+                component="h2"
                 className="App__Header__Title"
               >
-                Contents
+                Cue Cards
               </Typography>
-              <Navigation />
-            </Box>
-            <Container class="App__Body__Main">
-              <Routes>
-                <Route exact path="/CueCards/" element={<Title />} />
-                <Route exact path="/CueCards/chapter" element={<Chapter />} />
-                <Route exact path="/CueCards/section" element={<Section />} />
-                <Route exact path="/CueCards/about" element={<About />} />
-              </Routes>
+              <Link to={"/CueCards/"}>
+                <AiOutlineHome
+                  size={30}
+                  color="black"
+                  style={{ margin: "1rem", cursor: "pointer" }}
+                />
+              </Link>
             </Container>
-          </Box>
+            <Drawer
+              anchor={"left"}
+              open={showMenu}
+              onClose={() => setShowMenu(false)}
+              className="App__Drawer"
+            >
+              <Box
+                sx={{ width: "250px" }}
+                role="presentation"
+                //   onClick={toggleDrawer(anchor, false)}
+                //   onKeyDown={toggleDrawer(anchor, false)}
+              >
+                <List sx={{ width: "250px" }}>
+                  <Link
+                    to={"/CueCards/"}
+                    onClick={onMenuSelect}
+                    style={{ textDecoration: "none", color: "black" }}
+                  >
+                    <ListItem disablePadding>
+                      <ListItemButton>
+                        <ListItemIcon>
+                          <HomeIcon />
+                        </ListItemIcon>
+                        <ListItemText primary={"Home"} />
+                      </ListItemButton>
+                    </ListItem>
+                  </Link>
+                  <Link
+                    to="https://drive.google.com/file/d/1cOsbatri2i5LvhZlmCbuEBXyeCJYkMyL/view?usp=share_link"
+                    target="_blank"
+                    download
+                    style={{ textDecoration: "none", color: "black" }}
+                  >
+                    <ListItem disablePadding>
+                      <ListItemButton>
+                        <ListItemIcon>
+                          <DownloadIcon />
+                        </ListItemIcon>
+                        <ListItemText primary={"Download"} />
+                      </ListItemButton>
+                    </ListItem>
+                  </Link>
+                  <Link
+                    to={"/CueCards/about"}
+                    onClick={onMenuSelect}
+                    style={{ textDecoration: "none", color: "black" }}
+                  >
+                    <ListItem disablePadding>
+                      <ListItemButton>
+                        <ListItemIcon>
+                          <InfoIcon />
+                        </ListItemIcon>
+                        <ListItemText primary={"About"} />
+                      </ListItemButton>
+                    </ListItem>
+                  </Link>
+                </List>
+                <MenuList />
+              </Box>
+            </Drawer>
+            <Box className="App__Body">
+              <Box className="App__Body__Navigation">
+                <Typography
+                  variant="h4"
+                  component="h4"
+                  className="App__Header__Title"
+                >
+                  Contents
+                </Typography>
+                <Navigation />
+              </Box>
+              <Container class="App__Body__Main">
+                <Routes>
+                  <Route exact path="/CueCards/" element={<Title />} />
+                  <Route exact path="/CueCards/chapter" element={<Chapter />} />
+                  <Route exact path="/CueCards/section" element={<Section />} />
+                  <Route exact path="/CueCards/about" element={<About />} />
+                </Routes>
+              </Container>
+            </Box>
+          </MyErrorBoundary>
         </BrowserRouter>
       </ThemeProvider>
     </div>
