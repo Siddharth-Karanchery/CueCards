@@ -20,7 +20,14 @@ function Section() {
     (section) => section.sectionNum == searchParams.get("sno")
   );
 
-  console.log("section[0].sectionNum:  ", section[0].sectionNum);
+  // console.log("section[0].sectionNum:  ", section[0].sectionNum);
+
+  const position = sectionData
+    .map((section) => section.sectionNum)
+    .indexOf(searchParams.get("sno"));
+  // console.log("position: ", position);
+  // console.log("prev: ", sectionData[position - 1].sectionNum);
+  // console.log("next: ", sectionData[position + 1].sectionNum);
   return (
     <Container class="chapter">
       <Typography variant="h3">
@@ -34,14 +41,14 @@ function Section() {
               navigate({
                 pathname: "/CueCards/section",
                 search: `?${createSearchParams({
-                  sno: section[0].sectionNum - 1,
+                  sno: sectionData[position - 1].sectionNum,
                 })}`,
               });
             }}
           >
             <GrPrevious />
             <Typography variant="caption">
-              Section {section[0].sectionNum - 1}
+              Section {sectionData[position - 1].sectionNum}
             </Typography>
           </Box>
         ) : null}
@@ -52,13 +59,13 @@ function Section() {
               navigate({
                 pathname: "/CueCards/section",
                 search: `?${createSearchParams({
-                  sno: section[0].sectionNum + 1,
+                  sno: sectionData[position + 1].sectionNum,
                 })}`,
               });
             }}
           >
             <Typography variant="caption">
-              Section {section[0].sectionNum + 1}
+              Section {sectionData[position + 1].sectionNum}
             </Typography>
             <GrNext />
           </Box>
