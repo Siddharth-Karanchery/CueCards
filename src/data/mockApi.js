@@ -326,6 +326,487 @@ export const overview = [
       },
     ],
   },
+  {
+    chapterNum: "7",
+    chapterTitle: "RECTIFICATION AND CORRECTION OF THE REGISTER",
+    sections: [
+      {
+        sectionNum: "57",
+        sectionTitle:
+          "  Power to cancel or vary registration and to rectify the register",
+      },
+      {
+        sectionNum: "58",
+        sectionTitle: "  Correction of register",
+      },
+      {
+        sectionNum: "59",
+        sectionTitle: "  Alteration of registered trade marks",
+      },
+      {
+        sectionNum: "60",
+        sectionTitle:
+          "  Adaptation of entries in register to amended or substituted classification of goods or services",
+      },
+    ],
+  },
+  {
+    chapterNum: "8",
+    chapterTitle: "COLLECTIVE MARKS",
+    sections: [
+      {
+        sectionNum: "61",
+        sectionTitle: "  Special provisions for collective marks",
+      },
+      {
+        sectionNum: "62",
+        sectionTitle:
+          "  Collective mark not to be misleading as to character or significance",
+      },
+      {
+        sectionNum: "63",
+        sectionTitle:
+          "  Application to be accompanied by regulations governing use of collective marks",
+      },
+      {
+        sectionNum: "64",
+        sectionTitle:
+          "  Acceptance of application and regulations by Registrar",
+      },
+      {
+        sectionNum: "65",
+        sectionTitle: "  Regulations to be open to inspection",
+      },
+      {
+        sectionNum: "66",
+        sectionTitle: "  Amendment of regulations",
+      },
+      {
+        sectionNum: "67",
+        sectionTitle:
+          "  Infringement proceedings by registered proprietor of collective mark",
+      },
+      {
+        sectionNum: "68",
+        sectionTitle:
+          "  Additional grounds for removal of registration of collective mark",
+      },
+    ],
+  },
+  {
+    chapterNum: "9",
+    chapterTitle: "CERTIFICATION TRADE MARKS",
+    sections: [
+      {
+        sectionNum: "69",
+        sectionTitle:
+          "  Certain provisions of this Act not applicable to certification trade marks",
+      },
+      {
+        sectionNum: "70",
+        sectionTitle: "  Registration of certification trade marks",
+      },
+      {
+        sectionNum: "71",
+        sectionTitle:
+          "  Applications for registration of certification trade marks",
+      },
+      {
+        sectionNum: "72",
+        sectionTitle:
+          "  Consideration of application for registration by Registrar",
+      },
+      {
+        sectionNum: "73",
+        sectionTitle:
+          "  Opposition to registration of certification trade marks",
+      },
+      {
+        sectionNum: "74",
+        sectionTitle:
+          "  Filing of regulations governing use of a certification trade mark",
+      },
+      {
+        sectionNum: "75",
+        sectionTitle: "  Infringement of certification trade marks",
+      },
+      {
+        sectionNum: "76",
+        sectionTitle:
+          "  Acts not constituting infringement of certification trade marks",
+      },
+      {
+        sectionNum: "77",
+        sectionTitle:
+          "  Cancellation or varying of registration of certification trade marks",
+      },
+      {
+        sectionNum: "78",
+        sectionTitle:
+          "  Rights conferred by registration of certification trade marks",
+      },
+    ],
+  },
+  {
+    chapterNum: "11",
+    chapterTitle: "APPELLATE BOARD",
+    sections: [
+      {
+        sectionNum: "83",
+        sectionTitle: "  Establishment of Appellate Board",
+      },
+      {
+        sectionNum: "84",
+        sectionTitle: "  Composition of Appellate Board",
+      },
+      {
+        sectionNum: "85",
+        sectionTitle:
+          "  Qualifications for appointment as Chairperson, Vice- Chairperson, or other Members",
+      },
+      {
+        sectionNum: "86",
+        sectionTitle:
+          "  Term of office of Chairperson, Vice-Chairperson and other Members",
+      },
+      {
+        sectionNum: "87",
+        sectionTitle:
+          "  Vice-Chairperson or senior-most Member to act as Chairperson or discharge his functions in certain circumstances",
+      },
+      {
+        sectionNum: "88",
+        sectionTitle:
+          "  Salaries, allowances and other terms and conditions of service of Chairperson, Vice-Chairperson and other Members",
+      },
+      {
+        sectionNum: "89",
+        sectionTitle: "  Resignation and removal",
+      },
+      {
+        sectionNum: "89A",
+        sectionTitle:
+          "  Qualifications, terms and conditions of service of Chairperson, Vice-Chairperson and Member",
+      },
+      {
+        sectionNum: "90",
+        sectionTitle: "  Staff of Appellate Board",
+      },
+      {
+        sectionNum: "91",
+        sectionTitle: "  Appeals to Appellate Board",
+      },
+      {
+        sectionNum: "92",
+        sectionTitle: "  Procedure and powers of Appellate Board",
+      },
+      {
+        sectionNum: "93",
+        sectionTitle: "  Bar of jurisdiction of courts, etc",
+      },
+      {
+        sectionNum: "94",
+        sectionTitle: "  Bar to appear before Appellate Board",
+      },
+      {
+        sectionNum: "95",
+        sectionTitle: "  Conditions as to making of interim orders",
+      },
+      {
+        sectionNum: "96",
+        sectionTitle:
+          "  Power of Chairperson to transfer cases from one Bench to another",
+      },
+      {
+        sectionNum: "97",
+        sectionTitle:
+          "  Procedure for application for rectification, etc. before Appellate Board",
+      },
+      {
+        sectionNum: "98",
+        sectionTitle: "  Appearance of Registrar in legal proceedings",
+      },
+      {
+        sectionNum: "99",
+        sectionTitle:
+          "  Costs of Registrar in proceedings before Appellate Board",
+      },
+      {
+        sectionNum: "100",
+        sectionTitle: "  Transfer of pending proceedings to Appellate Board",
+      },
+    ],
+  },
+  {
+    chapterNum: "12",
+    chapterTitle: "OFFENCES, PENALTIES AND PROCEDURE",
+    sections: [
+      {
+        sectionNum: "101",
+        sectionTitle:
+          "  Meaning of applying trade marks and trade descriptions",
+      },
+      {
+        sectionNum: "102",
+        sectionTitle: "  Falsifying and falsely applying trade marks",
+      },
+      {
+        sectionNum: "103",
+        sectionTitle:
+          "  Penalty for applying false trade marks, trade descriptions, etc",
+      },
+      {
+        sectionNum: "104",
+        sectionTitle:
+          "  Penalty for selling goods or providing services to which false trade mark or false trade description is applied",
+      },
+      {
+        sectionNum: "105",
+        sectionTitle: "  Enhanced penalty on second or subsequent conviction",
+      },
+      {
+        sectionNum: "106",
+        sectionTitle:
+          "  Penalty for removing piece goods, etc. contrary to section 81",
+      },
+      {
+        sectionNum: "107",
+        sectionTitle:
+          "  Penalty for falsely representing a trade mark as registered",
+      },
+      {
+        sectionNum: "108",
+        sectionTitle:
+          "  Penalty for improperly describing a place of business as connected with the Trade Marks Office",
+      },
+      {
+        sectionNum: "109",
+        sectionTitle: "  Penalty for falsification of entries in the register",
+      },
+      {
+        sectionNum: "110",
+        sectionTitle: "  No offence in certain cases",
+      },
+      {
+        sectionNum: "111",
+        sectionTitle: "  Forfeiture of goods",
+      },
+      {
+        sectionNum: "112",
+        sectionTitle:
+          "  Exemption of certain persons employed in ordinary course of business",
+      },
+      {
+        sectionNum: "113",
+        sectionTitle:
+          "  Procedure where invalidity of registration is pleaded by the accused",
+      },
+      {
+        sectionNum: "114",
+        sectionTitle: "  Offences by companies",
+      },
+      {
+        sectionNum: "115",
+        sectionTitle:
+          "  Cognizance of certain offences and the powers of police officer for search and seizure",
+      },
+      {
+        sectionNum: "116",
+        sectionTitle: "  Evidence of origin of goods imported by sea",
+      },
+      {
+        sectionNum: "117",
+        sectionTitle: "  Costs of defence or prosecution",
+      },
+      {
+        sectionNum: "118",
+        sectionTitle: "  Limitation of prosecution",
+      },
+      {
+        sectionNum: "119",
+        sectionTitle: "  Information as to commission of offence",
+      },
+      {
+        sectionNum: "120",
+        sectionTitle:
+          "  Punishment of abetment in India of acts done out of India",
+      },
+      {
+        sectionNum: "121",
+        sectionTitle:
+          "  Instructions of Central Government as to permissible variation to be observed by criminal courts",
+      },
+    ],
+  },
+  {
+    chapterNum: "13",
+    chapterTitle: "MISCELLANEOUS",
+    sections: [
+      {
+        sectionNum: "122",
+        sectionTitle: "  Protection of action taken in good faith",
+      },
+      {
+        sectionNum: "123",
+        sectionTitle: "  Certain persons to be public servants",
+      },
+      {
+        sectionNum: "124",
+        sectionTitle:
+          "  Stay of proceedings where the validity of registration of the trade mark is questioned, etc",
+      },
+      {
+        sectionNum: "125",
+        sectionTitle:
+          " Application for rectification of register to be made to Appellate Board in certain cases",
+      },
+      {
+        sectionNum: "126",
+        sectionTitle: "  Implied warranty on sale of marked goods",
+      },
+      {
+        sectionNum: "127",
+        sectionTitle: "  Powers of Registrar",
+      },
+      {
+        sectionNum: "128",
+        sectionTitle: "  Exercise of discretionary power by Registrar",
+      },
+      {
+        sectionNum: "129",
+        sectionTitle: "  Evidence before Registrar",
+      },
+      {
+        sectionNum: "130",
+        sectionTitle: "  Death of party to a proceeding",
+      },
+      {
+        sectionNum: "131",
+        sectionTitle: "  Extension of time",
+      },
+      {
+        sectionNum: "132",
+        sectionTitle: "  Abandonment",
+      },
+      {
+        sectionNum: "133",
+        sectionTitle:
+          "  Preliminary advice by the Registrar as to distinctiveness",
+      },
+      {
+        sectionNum: "134",
+        sectionTitle:
+          "  Suit for infringement, etc., to be instituted before District Court",
+      },
+      {
+        sectionNum: "135",
+        sectionTitle: "  Relief in suits for infringement or for passing off",
+      },
+      {
+        sectionNum: "136",
+        sectionTitle:
+          "  Registered user to be impleaded in certain proceedings",
+      },
+      {
+        sectionNum: "137",
+        sectionTitle:
+          "  Evidence of entries in register, etc, and things done by the Registrar",
+      },
+      {
+        sectionNum: "138",
+        sectionTitle:
+          "  Registrar and other officers not compellable to produce register, etc",
+      },
+      {
+        sectionNum: "139",
+        sectionTitle: "  Power to require goods to show indication of origin",
+      },
+      {
+        sectionNum: "140",
+        sectionTitle:
+          "  Power to require information of imported goods bearing false trade marks",
+      },
+      {
+        sectionNum: "141",
+        sectionTitle: "  Certificate of validity",
+      },
+      {
+        sectionNum: "142",
+        sectionTitle: "  Groundless threats of legal proceedings",
+      },
+      {
+        sectionNum: "143",
+        sectionTitle: "  Address for service",
+      },
+      {
+        sectionNum: "144",
+        sectionTitle: "  Trade usages, etc, to be taken into consideration",
+      },
+      {
+        sectionNum: "145",
+        sectionTitle: "  Agents",
+      },
+      {
+        sectionNum: "146",
+        sectionTitle:
+          "  Marks registered by an agent or representative without authority",
+      },
+      {
+        sectionNum: "147",
+        sectionTitle: "  Indexes",
+      },
+      {
+        sectionNum: "148",
+        sectionTitle: "  Documents open to public inspection",
+      },
+      {
+        sectionNum: "149",
+        sectionTitle: "  Reports of Registrar to be placed before Parliament",
+      },
+      {
+        sectionNum: "150",
+        sectionTitle: "  Fees and surcharge",
+      },
+      {
+        sectionNum: "151",
+        sectionTitle: "  Savings in respect of certain matters in Chapter XII",
+      },
+      {
+        sectionNum: "152",
+        sectionTitle:
+          "  Declaration as to ownership of trade mark not registrable under the Registration Act, 1908",
+      },
+      {
+        sectionNum: "153",
+        sectionTitle: "  Government to be bound",
+      },
+      {
+        sectionNum: "154",
+        sectionTitle:
+          "  Special provisions relating to applications for registration from citizens of convention countries",
+      },
+      {
+        sectionNum: "155",
+        sectionTitle: "  Provision as to reciprocity",
+      },
+      {
+        sectionNum: "156",
+        sectionTitle: "  Power of Central Government to remove difficulties",
+      },
+      {
+        sectionNum: "157",
+        sectionTitle: "  Power to make rules",
+      },
+      {
+        sectionNum: "158",
+        sectionTitle: "  Amendments",
+      },
+      {
+        sectionNum: "159",
+        sectionTitle: "  Repeal and savings",
+      },
+    ],
+  },
 ];
 
 // {
@@ -726,5 +1207,828 @@ export const sectionData = [
     points: Section0,
     sectionNum: "45",
     sectionTitle: " Registration of assignments and transmissions",
+  },
+  {
+    chapterNum: "6",
+    chapterTitle: "USE OF TRADE MARKS AND REGISTERED USERS",
+    points: Section0,
+    sectionNum: "46",
+    sectionTitle: " Proposed use of trade mark by company to be formed, etc",
+  },
+  {
+    chapterNum: "6",
+    chapterTitle: "USE OF TRADE MARKS AND REGISTERED USERS",
+    points: Section0,
+    sectionNum: "47",
+    sectionTitle:
+      " Removal from register and imposition of limitations on ground of non-use",
+  },
+  {
+    chapterNum: "6",
+    chapterTitle: "USE OF TRADE MARKS AND REGISTERED USERS",
+    points: Section0,
+    sectionNum: "48",
+    sectionTitle: " Registered users",
+  },
+  {
+    chapterNum: "6",
+    chapterTitle: "USE OF TRADE MARKS AND REGISTERED USERS",
+    points: Section0,
+    sectionNum: "49",
+    sectionTitle: " Registration as registered user",
+  },
+  {
+    chapterNum: "6",
+    chapterTitle: "USE OF TRADE MARKS AND REGISTERED USERS",
+    points: Section0,
+    sectionNum: "50",
+    sectionTitle:
+      " Power of Registrar for variation or cancellation of registration as registered user",
+  },
+  {
+    chapterNum: "6",
+    chapterTitle: "USE OF TRADE MARKS AND REGISTERED USERS",
+    points: Section0,
+    sectionNum: "51",
+    sectionTitle:
+      " Power of Registrar to call for information relating to agreement in respect of registered users",
+  },
+  {
+    chapterNum: "6",
+    chapterTitle: "USE OF TRADE MARKS AND REGISTERED USERS",
+    points: Section0,
+    sectionNum: "52",
+    sectionTitle:
+      " Right of registered user to take proceedings against infringement",
+  },
+  {
+    chapterNum: "6",
+    chapterTitle: "USE OF TRADE MARKS AND REGISTERED USERS",
+    points: Section0,
+    sectionNum: "53",
+    sectionTitle:
+      " No right of permitted user to take proceeding against infringement",
+  },
+  {
+    chapterNum: "6",
+    chapterTitle: "USE OF TRADE MARKS AND REGISTERED USERS",
+    points: Section0,
+    sectionNum: "54",
+    sectionTitle:
+      " Registered user not to have right of assignment or transmission",
+  },
+  {
+    chapterNum: "6",
+    chapterTitle: "USE OF TRADE MARKS AND REGISTERED USERS",
+    points: Section0,
+    sectionNum: "55",
+    sectionTitle:
+      " Use of one of associated or substantially identical trade marks equivalent to use of another",
+  },
+  {
+    chapterNum: "6",
+    chapterTitle: "USE OF TRADE MARKS AND REGISTERED USERS",
+    points: Section0,
+    sectionNum: "56",
+    sectionTitle:
+      " Use of trade mark for export trade and use when form of trade connection changes",
+  },
+  {
+    chapterNum: "7",
+    chapterTitle: "RECTIFICATION AND CORRECTION OF THE REGISTER",
+    points: Section0,
+    sectionNum: "57",
+    sectionTitle:
+      "  Power to cancel or vary registration and to rectify the register",
+  },
+  {
+    chapterNum: "7",
+    chapterTitle: "RECTIFICATION AND CORRECTION OF THE REGISTER",
+    points: Section0,
+    sectionNum: "58",
+    sectionTitle: "  Correction of register",
+  },
+  {
+    chapterNum: "7",
+    chapterTitle: "RECTIFICATION AND CORRECTION OF THE REGISTER",
+    points: Section0,
+    sectionNum: "59",
+    sectionTitle: "  Alteration of registered trade marks",
+  },
+  {
+    chapterNum: "7",
+    chapterTitle: "RECTIFICATION AND CORRECTION OF THE REGISTER",
+    points: Section0,
+    sectionNum: "60",
+    sectionTitle:
+      "  Adaptation of entries in register to amended or substituted classification of goods or services",
+  },
+  {
+    chapterNum: "8",
+    chapterTitle: "COLLECTIVE MARKS",
+    points: Section0,
+    sectionNum: "61",
+    sectionTitle: "  Special provisions for collective marks",
+  },
+  {
+    chapterNum: "8",
+    chapterTitle: "COLLECTIVE MARKS",
+    points: Section0,
+    sectionNum: "62",
+    sectionTitle:
+      "  Collective mark not to be misleading as to character or significance",
+  },
+  {
+    chapterNum: "8",
+    chapterTitle: "COLLECTIVE MARKS",
+    points: Section0,
+    sectionNum: "63",
+    sectionTitle:
+      "  Application to be accompanied by regulations governing use of collective marks",
+  },
+  {
+    chapterNum: "8",
+    chapterTitle: "COLLECTIVE MARKS",
+    points: Section0,
+    sectionNum: "64",
+    sectionTitle: "  Acceptance of application and regulations by Registrar",
+  },
+  {
+    chapterNum: "8",
+    chapterTitle: "COLLECTIVE MARKS",
+    points: Section0,
+    sectionNum: "65",
+    sectionTitle: "  Regulations to be open to inspection",
+  },
+  {
+    chapterNum: "8",
+    chapterTitle: "COLLECTIVE MARKS",
+    points: Section0,
+    sectionNum: "66",
+    sectionTitle: "  Amendment of regulations",
+  },
+  {
+    chapterNum: "8",
+    chapterTitle: "COLLECTIVE MARKS",
+    points: Section0,
+    sectionNum: "67",
+    sectionTitle:
+      "  Infringement proceedings by registered proprietor of collective mark",
+  },
+  {
+    chapterNum: "8",
+    chapterTitle: "COLLECTIVE MARKS",
+    points: Section0,
+    sectionNum: "68",
+    sectionTitle:
+      "  Additional grounds for removal of registration of collective mark",
+  },
+  {
+    chapterNum: "9",
+    chapterTitle: "CERTIFICATION TRADE MARKS",
+    points: Section0,
+    sectionNum: "69",
+    sectionTitle:
+      "  Certain provisions of this Act not applicable to certification trade marks",
+  },
+  {
+    chapterNum: "9",
+    chapterTitle: "CERTIFICATION TRADE MARKS",
+    points: Section0,
+    sectionNum: "70",
+    sectionTitle: "  Registration of certification trade marks",
+  },
+  {
+    chapterNum: "9",
+    chapterTitle: "CERTIFICATION TRADE MARKS",
+    points: Section0,
+    sectionNum: "71",
+    sectionTitle:
+      "  Applications for registration of certification trade marks",
+  },
+  {
+    chapterNum: "9",
+    chapterTitle: "CERTIFICATION TRADE MARKS",
+    points: Section0,
+    sectionNum: "72",
+    sectionTitle:
+      "  Consideration of application for registration by Registrar",
+  },
+  {
+    chapterNum: "9",
+    chapterTitle: "CERTIFICATION TRADE MARKS",
+    points: Section0,
+    sectionNum: "73",
+    sectionTitle: "  Opposition to registration of certification trade marks",
+  },
+  {
+    chapterNum: "9",
+    chapterTitle: "CERTIFICATION TRADE MARKS",
+    points: Section0,
+    sectionNum: "74",
+    sectionTitle:
+      "  Filing of regulations governing use of a certification trade mark",
+  },
+  {
+    chapterNum: "9",
+    chapterTitle: "CERTIFICATION TRADE MARKS",
+    points: Section0,
+    sectionNum: "75",
+    sectionTitle: "  Infringement of certification trade marks",
+  },
+  {
+    chapterNum: "9",
+    chapterTitle: "CERTIFICATION TRADE MARKS",
+    points: Section0,
+    sectionNum: "76",
+    sectionTitle:
+      "  Acts not constituting infringement of certification trade marks",
+  },
+  {
+    chapterNum: "9",
+    chapterTitle: "CERTIFICATION TRADE MARKS",
+    points: Section0,
+    sectionNum: "77",
+    sectionTitle:
+      "  Cancellation or varying of registration of certification trade marks",
+  },
+  {
+    chapterNum: "9",
+    chapterTitle: "CERTIFICATION TRADE MARKS",
+    points: Section0,
+    sectionNum: "78",
+    sectionTitle:
+      "  Rights conferred by registration of certification trade marks",
+  },
+  {
+    chapterNum: "11",
+    chapterTitle: "APPELLATE BOARD",
+    points: Section0,
+    sectionNum: "83",
+    sectionTitle: "  Establishment of Appellate Board",
+  },
+  {
+    chapterNum: "11",
+    chapterTitle: "APPELLATE BOARD",
+    points: Section0,
+    sectionNum: "84",
+    sectionTitle: "  Composition of Appellate Board",
+  },
+  {
+    chapterNum: "11",
+    chapterTitle: "APPELLATE BOARD",
+    points: Section0,
+    sectionNum: "85",
+    sectionTitle:
+      "  Qualifications for appointment as Chairperson, Vice- Chairperson, or other Members",
+  },
+  {
+    chapterNum: "11",
+    chapterTitle: "APPELLATE BOARD",
+    points: Section0,
+    sectionNum: "86",
+    sectionTitle:
+      "  Term of office of Chairperson, Vice-Chairperson and other Members",
+  },
+  {
+    chapterNum: "11",
+    chapterTitle: "APPELLATE BOARD",
+    points: Section0,
+    sectionNum: "87",
+    sectionTitle:
+      "  Vice-Chairperson or senior-most Member to act as Chairperson or discharge his functions in certain circumstances",
+  },
+  {
+    chapterNum: "11",
+    chapterTitle: "APPELLATE BOARD",
+    points: Section0,
+    sectionNum: "88",
+    sectionTitle:
+      "  Salaries, allowances and other terms and conditions of service of Chairperson, Vice-Chairperson and other Members",
+  },
+  {
+    chapterNum: "11",
+    chapterTitle: "APPELLATE BOARD",
+    points: Section0,
+    sectionNum: "89",
+    sectionTitle: "  Resignation and removal",
+  },
+  {
+    chapterNum: "11",
+    chapterTitle: "APPELLATE BOARD",
+    points: Section0,
+    sectionNum: "89A",
+    sectionTitle:
+      "  Qualifications, terms and conditions of service of Chairperson, Vice-Chairperson and Member",
+  },
+  {
+    chapterNum: "11",
+    chapterTitle: "APPELLATE BOARD",
+    points: Section0,
+    sectionNum: "90",
+    sectionTitle: "  Staff of Appellate Board",
+  },
+  {
+    chapterNum: "11",
+    chapterTitle: "APPELLATE BOARD",
+    points: Section0,
+    sectionNum: "91",
+    sectionTitle: "  Appeals to Appellate Board",
+  },
+  {
+    chapterNum: "11",
+    chapterTitle: "APPELLATE BOARD",
+    points: Section0,
+    sectionNum: "92",
+    sectionTitle: "  Procedure and powers of Appellate Board",
+  },
+  {
+    chapterNum: "11",
+    chapterTitle: "APPELLATE BOARD",
+    points: Section0,
+    sectionNum: "93",
+    sectionTitle: "  Bar of jurisdiction of courts, etc",
+  },
+  {
+    chapterNum: "11",
+    chapterTitle: "APPELLATE BOARD",
+    points: Section0,
+    sectionNum: "94",
+    sectionTitle: "  Bar to appear before Appellate Board",
+  },
+  {
+    chapterNum: "11",
+    chapterTitle: "APPELLATE BOARD",
+    points: Section0,
+    sectionNum: "95",
+    sectionTitle: "  Conditions as to making of interim orders",
+  },
+  {
+    chapterNum: "11",
+    chapterTitle: "APPELLATE BOARD",
+    points: Section0,
+    sectionNum: "96",
+    sectionTitle:
+      "  Power of Chairperson to transfer cases from one Bench to another",
+  },
+  {
+    chapterNum: "11",
+    chapterTitle: "APPELLATE BOARD",
+    points: Section0,
+    sectionNum: "97",
+    sectionTitle:
+      "  Procedure for application for rectification, etc. before Appellate Board",
+  },
+  {
+    chapterNum: "11",
+    chapterTitle: "APPELLATE BOARD",
+    points: Section0,
+    sectionNum: "98",
+    sectionTitle: "  Appearance of Registrar in legal proceedings",
+  },
+  {
+    chapterNum: "11",
+    chapterTitle: "APPELLATE BOARD",
+    points: Section0,
+    sectionNum: "99",
+    sectionTitle: "  Costs of Registrar in proceedings before Appellate Board",
+  },
+  {
+    chapterNum: "11",
+    chapterTitle: "APPELLATE BOARD",
+    points: Section0,
+    sectionNum: "100",
+    sectionTitle: "  Transfer of pending proceedings to Appellate Board",
+  },
+  {
+    chapterNum: "12",
+    chapterTitle: "OFFENCES, PENALTIES AND PROCEDURE",
+    points: Section0,
+    sectionNum: "101",
+    sectionTitle: "  Meaning of applying trade marks and trade descriptions",
+  },
+  {
+    chapterNum: "12",
+    chapterTitle: "OFFENCES, PENALTIES AND PROCEDURE",
+    points: Section0,
+    sectionNum: "102",
+    sectionTitle: "  Falsifying and falsely applying trade marks",
+  },
+  {
+    chapterNum: "12",
+    chapterTitle: "OFFENCES, PENALTIES AND PROCEDURE",
+    points: Section0,
+    sectionNum: "103",
+    sectionTitle:
+      "  Penalty for applying false trade marks, trade descriptions, etc",
+  },
+  {
+    chapterNum: "12",
+    chapterTitle: "OFFENCES, PENALTIES AND PROCEDURE",
+    points: Section0,
+    sectionNum: "104",
+    sectionTitle:
+      "  Penalty for selling goods or providing services to which false trade mark or false trade description is applied",
+  },
+  {
+    chapterNum: "12",
+    chapterTitle: "OFFENCES, PENALTIES AND PROCEDURE",
+    points: Section0,
+    sectionNum: "105",
+    sectionTitle: "  Enhanced penalty on second or subsequent conviction",
+  },
+  {
+    chapterNum: "12",
+    chapterTitle: "OFFENCES, PENALTIES AND PROCEDURE",
+    points: Section0,
+    sectionNum: "106",
+    sectionTitle:
+      "  Penalty for removing piece goods, etc. contrary to section 81",
+  },
+  {
+    chapterNum: "12",
+    chapterTitle: "OFFENCES, PENALTIES AND PROCEDURE",
+    points: Section0,
+    sectionNum: "107",
+    sectionTitle:
+      "  Penalty for falsely representing a trade mark as registered",
+  },
+  {
+    chapterNum: "12",
+    chapterTitle: "OFFENCES, PENALTIES AND PROCEDURE",
+    points: Section0,
+    sectionNum: "108",
+    sectionTitle:
+      "  Penalty for improperly describing a place of business as connected with the Trade Marks Office",
+  },
+  {
+    chapterNum: "12",
+    chapterTitle: "OFFENCES, PENALTIES AND PROCEDURE",
+    points: Section0,
+    sectionNum: "109",
+    sectionTitle: "  Penalty for falsification of entries in the register",
+  },
+  {
+    chapterNum: "12",
+    chapterTitle: "OFFENCES, PENALTIES AND PROCEDURE",
+    points: Section0,
+    sectionNum: "110",
+    sectionTitle: "  No offence in certain cases",
+  },
+  {
+    chapterNum: "12",
+    chapterTitle: "OFFENCES, PENALTIES AND PROCEDURE",
+    points: Section0,
+    sectionNum: "111",
+    sectionTitle: "  Forfeiture of goods",
+  },
+  {
+    chapterNum: "12",
+    chapterTitle: "OFFENCES, PENALTIES AND PROCEDURE",
+    points: Section0,
+    sectionNum: "112",
+    sectionTitle:
+      "  Exemption of certain persons employed in ordinary course of business",
+  },
+  {
+    chapterNum: "12",
+    chapterTitle: "OFFENCES, PENALTIES AND PROCEDURE",
+    points: Section0,
+    sectionNum: "113",
+    sectionTitle:
+      "  Procedure where invalidity of registration is pleaded by the accused",
+  },
+  {
+    chapterNum: "12",
+    chapterTitle: "OFFENCES, PENALTIES AND PROCEDURE",
+    points: Section0,
+    sectionNum: "114",
+    sectionTitle: "  Offences by companies",
+  },
+  {
+    chapterNum: "12",
+    chapterTitle: "OFFENCES, PENALTIES AND PROCEDURE",
+    points: Section0,
+    sectionNum: "115",
+    sectionTitle:
+      "  Cognizance of certain offences and the powers of police officer for search and seizure",
+  },
+  {
+    chapterNum: "12",
+    chapterTitle: "OFFENCES, PENALTIES AND PROCEDURE",
+    points: Section0,
+    sectionNum: "116",
+    sectionTitle: "  Evidence of origin of goods imported by sea",
+  },
+  {
+    chapterNum: "12",
+    chapterTitle: "OFFENCES, PENALTIES AND PROCEDURE",
+    points: Section0,
+    sectionNum: "117",
+    sectionTitle: "  Costs of defence or prosecution",
+  },
+  {
+    chapterNum: "12",
+    chapterTitle: "OFFENCES, PENALTIES AND PROCEDURE",
+    points: Section0,
+    sectionNum: "118",
+    sectionTitle: "  Limitation of prosecution",
+  },
+  {
+    chapterNum: "12",
+    chapterTitle: "OFFENCES, PENALTIES AND PROCEDURE",
+    points: Section0,
+    sectionNum: "119",
+    sectionTitle: "  Information as to commission of offence",
+  },
+  {
+    chapterNum: "12",
+    chapterTitle: "OFFENCES, PENALTIES AND PROCEDURE",
+    points: Section0,
+    sectionNum: "120",
+    sectionTitle: "  Punishment of abetment in India of acts done out of India",
+  },
+  {
+    chapterNum: "12",
+    chapterTitle: "OFFENCES, PENALTIES AND PROCEDURE",
+    points: Section0,
+    sectionNum: "121",
+    sectionTitle:
+      "  Instructions of Central Government as to permissible variation to be observed by criminal courts",
+  },
+  {
+    chapterNum: "13",
+    chapterTitle: "MISCELLANEOUS",
+    points: Section0,
+    sectionNum: "122",
+    sectionTitle: "  Protection of action taken in good faith",
+  },
+  {
+    chapterNum: "13",
+    chapterTitle: "MISCELLANEOUS",
+    points: Section0,
+    sectionNum: "123",
+    sectionTitle: "  Certain persons to be public servants",
+  },
+  {
+    chapterNum: "13",
+    chapterTitle: "MISCELLANEOUS",
+    points: Section0,
+    sectionNum: "124",
+    sectionTitle:
+      "  Stay of proceedings where the validity of registration of the trade mark is questioned, etc",
+  },
+  {
+    chapterNum: "13",
+    chapterTitle: "MISCELLANEOUS",
+    points: Section0,
+    sectionNum: "125",
+    sectionTitle:
+      " Application for rectification of register to be made to Appellate Board in certain cases",
+  },
+  {
+    chapterNum: "13",
+    chapterTitle: "MISCELLANEOUS",
+    points: Section0,
+    sectionNum: "126",
+    sectionTitle: "  Implied warranty on sale of marked goods",
+  },
+  {
+    chapterNum: "13",
+    chapterTitle: "MISCELLANEOUS",
+    points: Section0,
+    sectionNum: "127",
+    sectionTitle: "  Powers of Registrar",
+  },
+  {
+    chapterNum: "13",
+    chapterTitle: "MISCELLANEOUS",
+    points: Section0,
+    sectionNum: "128",
+    sectionTitle: "  Exercise of discretionary power by Registrar",
+  },
+  {
+    chapterNum: "13",
+    chapterTitle: "MISCELLANEOUS",
+    points: Section0,
+    sectionNum: "129",
+    sectionTitle: "  Evidence before Registrar",
+  },
+  {
+    chapterNum: "13",
+    chapterTitle: "MISCELLANEOUS",
+    points: Section0,
+    sectionNum: "130",
+    sectionTitle: "  Death of party to a proceeding",
+  },
+  {
+    chapterNum: "13",
+    chapterTitle: "MISCELLANEOUS",
+    points: Section0,
+    sectionNum: "131",
+    sectionTitle: "  Extension of time",
+  },
+  {
+    chapterNum: "13",
+    chapterTitle: "MISCELLANEOUS",
+    points: Section0,
+    sectionNum: "132",
+    sectionTitle: "  Abandonment",
+  },
+  {
+    chapterNum: "13",
+    chapterTitle: "MISCELLANEOUS",
+    points: Section0,
+    sectionNum: "133",
+    sectionTitle: "  Preliminary advice by the Registrar as to distinctiveness",
+  },
+  {
+    chapterNum: "13",
+    chapterTitle: "MISCELLANEOUS",
+    points: Section0,
+    sectionNum: "134",
+    sectionTitle:
+      "  Suit for infringement, etc., to be instituted before District Court",
+  },
+  {
+    chapterNum: "13",
+    chapterTitle: "MISCELLANEOUS",
+    points: Section0,
+    sectionNum: "135",
+    sectionTitle: "  Relief in suits for infringement or for passing off",
+  },
+  {
+    chapterNum: "13",
+    chapterTitle: "MISCELLANEOUS",
+    points: Section0,
+    sectionNum: "136",
+    sectionTitle: "  Registered user to be impleaded in certain proceedings",
+  },
+  {
+    chapterNum: "13",
+    chapterTitle: "MISCELLANEOUS",
+    points: Section0,
+    sectionNum: "137",
+    sectionTitle:
+      "  Evidence of entries in register, etc, and things done by the Registrar",
+  },
+  {
+    chapterNum: "13",
+    chapterTitle: "MISCELLANEOUS",
+    points: Section0,
+    sectionNum: "138",
+    sectionTitle:
+      "  Registrar and other officers not compellable to produce register, etc",
+  },
+  {
+    chapterNum: "13",
+    chapterTitle: "MISCELLANEOUS",
+    points: Section0,
+    sectionNum: "139",
+    sectionTitle: "  Power to require goods to show indication of origin",
+  },
+  {
+    chapterNum: "13",
+    chapterTitle: "MISCELLANEOUS",
+    points: Section0,
+    sectionNum: "140",
+    sectionTitle:
+      "  Power to require information of imported goods bearing false trade marks",
+  },
+  {
+    chapterNum: "13",
+    chapterTitle: "MISCELLANEOUS",
+    points: Section0,
+    sectionNum: "141",
+    sectionTitle: "  Certificate of validity",
+  },
+  {
+    chapterNum: "13",
+    chapterTitle: "MISCELLANEOUS",
+    points: Section0,
+    sectionNum: "142",
+    sectionTitle: "  Groundless threats of legal proceedings",
+  },
+  {
+    chapterNum: "13",
+    chapterTitle: "MISCELLANEOUS",
+    points: Section0,
+    sectionNum: "143",
+    sectionTitle: "  Address for service",
+  },
+  {
+    chapterNum: "13",
+    chapterTitle: "MISCELLANEOUS",
+    points: Section0,
+    sectionNum: "144",
+    sectionTitle: "  Trade usages, etc, to be taken into consideration",
+  },
+  {
+    chapterNum: "13",
+    chapterTitle: "MISCELLANEOUS",
+    points: Section0,
+    sectionNum: "145",
+    sectionTitle: "  Agents",
+  },
+  {
+    chapterNum: "13",
+    chapterTitle: "MISCELLANEOUS",
+    points: Section0,
+    sectionNum: "146",
+    sectionTitle:
+      "  Marks registered by an agent or representative without authority",
+  },
+  {
+    chapterNum: "13",
+    chapterTitle: "MISCELLANEOUS",
+    points: Section0,
+    sectionNum: "147",
+    sectionTitle: "  Indexes",
+  },
+  {
+    chapterNum: "13",
+    chapterTitle: "MISCELLANEOUS",
+    points: Section0,
+    sectionNum: "148",
+    sectionTitle: "  Documents open to public inspection",
+  },
+  {
+    chapterNum: "13",
+    chapterTitle: "MISCELLANEOUS",
+    points: Section0,
+    sectionNum: "149",
+    sectionTitle: "  Reports of Registrar to be placed before Parliament",
+  },
+  {
+    chapterNum: "13",
+    chapterTitle: "MISCELLANEOUS",
+    points: Section0,
+    sectionNum: "150",
+    sectionTitle: "  Fees and surcharge",
+  },
+  {
+    chapterNum: "13",
+    chapterTitle: "MISCELLANEOUS",
+    points: Section0,
+    sectionNum: "151",
+    sectionTitle: "  Savings in respect of certain matters in Chapter XII",
+  },
+  {
+    chapterNum: "13",
+    chapterTitle: "MISCELLANEOUS",
+    points: Section0,
+    sectionNum: "152",
+    sectionTitle:
+      "  Declaration as to ownership of trade mark not registrable under the Registration Act, 1908",
+  },
+  {
+    chapterNum: "13",
+    chapterTitle: "MISCELLANEOUS",
+    points: Section0,
+    sectionNum: "153",
+    sectionTitle: "  Government to be bound",
+  },
+  {
+    chapterNum: "13",
+    chapterTitle: "MISCELLANEOUS",
+    points: Section0,
+    sectionNum: "154",
+    sectionTitle:
+      "  Special provisions relating to applications for registration from citizens of convention countries",
+  },
+  {
+    chapterNum: "13",
+    chapterTitle: "MISCELLANEOUS",
+    points: Section0,
+    sectionNum: "155",
+    sectionTitle: "  Provision as to reciprocity",
+  },
+  {
+    chapterNum: "13",
+    chapterTitle: "MISCELLANEOUS",
+    points: Section0,
+    sectionNum: "156",
+    sectionTitle: "  Power of Central Government to remove difficulties",
+  },
+  {
+    chapterNum: "13",
+    chapterTitle: "MISCELLANEOUS",
+    points: Section0,
+    sectionNum: "157",
+    sectionTitle: "  Power to make rules",
+  },
+  {
+    chapterNum: "13",
+    chapterTitle: "MISCELLANEOUS",
+    points: Section0,
+    sectionNum: "158",
+    sectionTitle: "  Amendments",
+  },
+  {
+    chapterNum: "13",
+    chapterTitle: "MISCELLANEOUS",
+    points: Section0,
+    sectionNum: "159",
+    sectionTitle: "  Repeal and savings",
   },
 ];
