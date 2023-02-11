@@ -151,7 +151,6 @@ function App() {
             </Box>
             <Container class="App__Footer">
               <Typography variant="caption">
-                {" "}
                 Designed and developed by Siddharth Karanchery, Feb 2023
               </Typography>
             </Container>

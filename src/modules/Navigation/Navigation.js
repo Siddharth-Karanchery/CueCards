@@ -21,9 +21,10 @@ function Navigation() {
     setExpanded(isExpanded ? element : false);
   };
 
-  const navigationEle = overview.map((chapter) => {
+  const navigationEle = overview.map((chapter, i) => {
     return (
       <Accordion
+        key={i * 21}
         className="Navigation__Acc__Ele"
         expanded={expanded === chapter.chapterTitle}
         onClick={
