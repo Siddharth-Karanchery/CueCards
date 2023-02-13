@@ -1,0 +1,6 @@
+import { newLine, indent1, indent2, indent3 } from "../constants";
+
+export const Section89 = `(1) The 1[Chairperson], 2[Vice-Chairperson] or any other Member may, by notice in writing under his hand addressed to the President of India, resign his office:
+${newLine}Provided that the 1[Chairperson], 2[Vice-Chairperson] or any other Member shall, unless he is permitted by the President of India to relinquish his office sooner, continue to hold office until the expiry of three months from the date of receipt of such notice or until a person duly appointed as his successor enters upon his office or until the expiry of his term of office, whichever is earlier.
+${newLine}(2) The 1[Chairperson], 2[Vice-Chairperson] or any other Member shall not be removed from his office except by an order made by the President of India on the ground of proved misbehaviour or incapacity after an inquiry made by a Judge of the Supreme Court in which the 1[Chairperson], 2[Vice-Chairperson] or other Member had been informed of the charges against him and given a reasonable opportunity of being heard in respect of those charges.
+${newLine}(3) The Central Government may, by rules, regulate the procedure for the investigation of misbehaviour or incapacity of the 1[Chairperson], 2[Vice-Chairperson] or other Member referred to in sub-section (2).`;

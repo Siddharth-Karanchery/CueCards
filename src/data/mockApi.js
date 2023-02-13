@@ -2,6 +2,7 @@ import { newLine, indent1, indent2 } from "./constants";
 import { Section0 } from "./SectionData/Section0";
 import { Section1 } from "./SectionData/Section1";
 import { Section10 } from "./SectionData/Section10";
+import { Section100 } from "./SectionData/Section100";
 import { Section11 } from "./SectionData/Section11";
 import { Section12 } from "./SectionData/Section12";
 import { Section13 } from "./SectionData/Section13";
@@ -84,7 +85,25 @@ import { Section76 } from "./SectionData/Section76";
 import { Section77 } from "./SectionData/Section77";
 import { Section78 } from "./SectionData/Section78";
 import { Section8 } from "./SectionData/Section8";
+import { Section83 } from "./SectionData/Section83";
+import { Section84 } from "./SectionData/Section84";
+import { Section85 } from "./SectionData/Section85";
+import { Section86 } from "./SectionData/Section86";
+import { Section87 } from "./SectionData/Section87";
+import { Section88 } from "./SectionData/Section88";
+import { Section89 } from "./SectionData/Section89";
+import { Section89A } from "./SectionData/Section89A";
 import { Section9 } from "./SectionData/Section9";
+import { Section90 } from "./SectionData/Section90";
+import { Section91 } from "./SectionData/Section91";
+import { Section92 } from "./SectionData/Section92";
+import { Section93 } from "./SectionData/Section93";
+import { Section94 } from "./SectionData/Section94";
+import { Section95 } from "./SectionData/Section95";
+import { Section96 } from "./SectionData/Section96";
+import { Section97 } from "./SectionData/Section97";
+import { Section98 } from "./SectionData/Section98";
+import { Section99 } from "./SectionData/Section99";
 
 export const overview = [
   {
@@ -1505,21 +1524,21 @@ export const sectionData = [
   {
     chapterNum: "11",
     chapterTitle: "APPELLATE BOARD",
-    points: Section0,
+    points: Section83,
     sectionNum: "83",
     sectionTitle: "  Establishment of Appellate Board",
   },
   {
     chapterNum: "11",
     chapterTitle: "APPELLATE BOARD",
-    points: Section0,
+    points: Section84,
     sectionNum: "84",
     sectionTitle: "  Composition of Appellate Board",
   },
   {
     chapterNum: "11",
     chapterTitle: "APPELLATE BOARD",
-    points: Section0,
+    points: Section85,
     sectionNum: "85",
     sectionTitle:
       "  Qualifications for appointment as Chairperson, Vice- Chairperson, or other Members",
@@ -1527,7 +1546,7 @@ export const sectionData = [
   {
     chapterNum: "11",
     chapterTitle: "APPELLATE BOARD",
-    points: Section0,
+    points: Section86,
     sectionNum: "86",
     sectionTitle:
       "  Term of office of Chairperson, Vice-Chairperson and other Members",
@@ -1535,7 +1554,7 @@ export const sectionData = [
   {
     chapterNum: "11",
     chapterTitle: "APPELLATE BOARD",
-    points: Section0,
+    points: Section87,
     sectionNum: "87",
     sectionTitle:
       "  Vice-Chairperson or senior-most Member to act as Chairperson or discharge his functions in certain circumstances",
@@ -1543,7 +1562,7 @@ export const sectionData = [
   {
     chapterNum: "11",
     chapterTitle: "APPELLATE BOARD",
-    points: Section0,
+    points: Section88,
     sectionNum: "88",
     sectionTitle:
       "  Salaries, allowances and other terms and conditions of service of Chairperson, Vice-Chairperson and other Members",
@@ -1551,14 +1570,14 @@ export const sectionData = [
   {
     chapterNum: "11",
     chapterTitle: "APPELLATE BOARD",
-    points: Section0,
+    points: Section89,
     sectionNum: "89",
     sectionTitle: "  Resignation and removal",
   },
   {
     chapterNum: "11",
     chapterTitle: "APPELLATE BOARD",
-    points: Section0,
+    points: Section89A,
     sectionNum: "89A",
     sectionTitle:
       "  Qualifications, terms and conditions of service of Chairperson, Vice-Chairperson and Member",
@@ -1566,49 +1585,49 @@ export const sectionData = [
   {
     chapterNum: "11",
     chapterTitle: "APPELLATE BOARD",
-    points: Section0,
+    points: Section90,
     sectionNum: "90",
     sectionTitle: "  Staff of Appellate Board",
   },
   {
     chapterNum: "11",
     chapterTitle: "APPELLATE BOARD",
-    points: Section0,
+    points: Section91,
     sectionNum: "91",
     sectionTitle: "  Appeals to Appellate Board",
   },
   {
     chapterNum: "11",
     chapterTitle: "APPELLATE BOARD",
-    points: Section0,
+    points: Section92,
     sectionNum: "92",
     sectionTitle: "  Procedure and powers of Appellate Board",
   },
   {
     chapterNum: "11",
     chapterTitle: "APPELLATE BOARD",
-    points: Section0,
+    points: Section93,
     sectionNum: "93",
     sectionTitle: "  Bar of jurisdiction of courts, etc",
   },
   {
     chapterNum: "11",
     chapterTitle: "APPELLATE BOARD",
-    points: Section0,
+    points: Section94,
     sectionNum: "94",
     sectionTitle: "  Bar to appear before Appellate Board",
   },
   {
     chapterNum: "11",
     chapterTitle: "APPELLATE BOARD",
-    points: Section0,
+    points: Section95,
     sectionNum: "95",
     sectionTitle: "  Conditions as to making of interim orders",
   },
   {
     chapterNum: "11",
     chapterTitle: "APPELLATE BOARD",
-    points: Section0,
+    points: Section96,
     sectionNum: "96",
     sectionTitle:
       "  Power of Chairperson to transfer cases from one Bench to another",
@@ -1616,7 +1635,7 @@ export const sectionData = [
   {
     chapterNum: "11",
     chapterTitle: "APPELLATE BOARD",
-    points: Section0,
+    points: Section97,
     sectionNum: "97",
     sectionTitle:
       "  Procedure for application for rectification, etc. before Appellate Board",
@@ -1624,21 +1643,21 @@ export const sectionData = [
   {
     chapterNum: "11",
     chapterTitle: "APPELLATE BOARD",
-    points: Section0,
+    points: Section98,
     sectionNum: "98",
     sectionTitle: "  Appearance of Registrar in legal proceedings",
   },
   {
     chapterNum: "11",
     chapterTitle: "APPELLATE BOARD",
-    points: Section0,
+    points: Section99,
     sectionNum: "99",
     sectionTitle: "  Costs of Registrar in proceedings before Appellate Board",
   },
   {
     chapterNum: "11",
     chapterTitle: "APPELLATE BOARD",
-    points: Section0,
+    points: Section100,
     sectionNum: "100",
     sectionTitle: "  Transfer of pending proceedings to Appellate Board",
   },
