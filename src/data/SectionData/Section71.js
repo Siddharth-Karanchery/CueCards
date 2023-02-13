@@ -1,3 +1,5 @@
 import { newLine, indent1, indent2, indent3 } from "../constants";
 
-export const Section0 = `! Data not yet populated. Coming soon !`;
+export const Section71 = `(1) An application for the registration of a mark as a certification trade mark shall be made to the Registrar in the prescribed manner by the person proposed to be registered as the proprietor thereof, and accompanied by a draft for the regulations to be deposited under section 74.
+${newLine}(2) Subject to the provisions of section 70, the provisions of sections 18, 19 and 22 shall apply in relation to an application under this section as they apply in relation to an application under section 18, subject to the modification that references therein to acceptance of an application shall be construed as references to authorisation to proceed with an application.
+${newLine}(3) In dealing under the said provisions with an application under this section, the tribunal shall have regard to the like considerations, so far as relevant, as if the application were applications under section 18 and to any other considerations relevant to applications under this section, including the desirability of securing that a certification trade mark shall comprise some indication that it is a certification trade mark.`;

@@ -1,0 +1,3 @@
+import { newLine, indent1, indent2, indent3 } from "../constants";
+
+export const Section75 = `The right conferred by section 78 is infringed by any person who, not being the registered proprietor of the certification trade mark or a person authorised by him in that behalf under the regulations filed under section 74, using it in accordance therewith, uses in the course of trade, a mark, which is identical with, or deceptively similar to the certification trade mark in relation to any goods or services in respect of which it is registered, and in such manner as to render the use of the mark likely to be taken as being a use as a trade mark.`;

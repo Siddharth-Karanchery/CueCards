@@ -72,7 +72,17 @@ import { Section65 } from "./SectionData/Section65";
 import { Section66 } from "./SectionData/Section66";
 import { Section67 } from "./SectionData/Section67";
 import { Section68 } from "./SectionData/Section68";
+import { Section69 } from "./SectionData/Section69";
 import { Section7 } from "./SectionData/Section7";
+import { Section70 } from "./SectionData/Section70";
+import { Section71 } from "./SectionData/Section71";
+import { Section72 } from "./SectionData/Section72";
+import { Section73 } from "./SectionData/Section73";
+import { Section74 } from "./SectionData/Section74";
+import { Section75 } from "./SectionData/Section75";
+import { Section76 } from "./SectionData/Section76";
+import { Section77 } from "./SectionData/Section77";
+import { Section78 } from "./SectionData/Section78";
 import { Section8 } from "./SectionData/Section8";
 import { Section9 } from "./SectionData/Section9";
 
@@ -1418,7 +1428,7 @@ export const sectionData = [
   {
     chapterNum: "9",
     chapterTitle: "CERTIFICATION TRADE MARKS",
-    points: Section0,
+    points: Section69,
     sectionNum: "69",
     sectionTitle:
       "  Certain provisions of this Act not applicable to certification trade marks",
@@ -1426,14 +1436,14 @@ export const sectionData = [
   {
     chapterNum: "9",
     chapterTitle: "CERTIFICATION TRADE MARKS",
-    points: Section0,
+    points: Section70,
     sectionNum: "70",
     sectionTitle: "  Registration of certification trade marks",
   },
   {
     chapterNum: "9",
     chapterTitle: "CERTIFICATION TRADE MARKS",
-    points: Section0,
+    points: Section71,
     sectionNum: "71",
     sectionTitle:
       "  Applications for registration of certification trade marks",
@@ -1441,7 +1451,7 @@ export const sectionData = [
   {
     chapterNum: "9",
     chapterTitle: "CERTIFICATION TRADE MARKS",
-    points: Section0,
+    points: Section72,
     sectionNum: "72",
     sectionTitle:
       "  Consideration of application for registration by Registrar",
@@ -1449,14 +1459,14 @@ export const sectionData = [
   {
     chapterNum: "9",
     chapterTitle: "CERTIFICATION TRADE MARKS",
-    points: Section0,
+    points: Section73,
     sectionNum: "73",
     sectionTitle: "  Opposition to registration of certification trade marks",
   },
   {
     chapterNum: "9",
     chapterTitle: "CERTIFICATION TRADE MARKS",
-    points: Section0,
+    points: Section74,
     sectionNum: "74",
     sectionTitle:
       "  Filing of regulations governing use of a certification trade mark",
@@ -1464,14 +1474,14 @@ export const sectionData = [
   {
     chapterNum: "9",
     chapterTitle: "CERTIFICATION TRADE MARKS",
-    points: Section0,
+    points: Section75,
     sectionNum: "75",
     sectionTitle: "  Infringement of certification trade marks",
   },
   {
     chapterNum: "9",
     chapterTitle: "CERTIFICATION TRADE MARKS",
-    points: Section0,
+    points: Section76,
     sectionNum: "76",
     sectionTitle:
       "  Acts not constituting infringement of certification trade marks",
@@ -1479,7 +1489,7 @@ export const sectionData = [
   {
     chapterNum: "9",
     chapterTitle: "CERTIFICATION TRADE MARKS",
-    points: Section0,
+    points: Section77,
     sectionNum: "77",
     sectionTitle:
       "  Cancellation or varying of registration of certification trade marks",
@@ -1487,7 +1497,7 @@ export const sectionData = [
   {
     chapterNum: "9",
     chapterTitle: "CERTIFICATION TRADE MARKS",
-    points: Section0,
+    points: Section78,
     sectionNum: "78",
     sectionTitle:
       "  Rights conferred by registration of certification trade marks",
