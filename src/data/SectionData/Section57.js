@@ -1,0 +1,7 @@
+import { newLine, indent1, indent2, indent3 } from "../constants";
+
+export const Section57 = `(1) On application made in the prescribed manner to the Appellate Board or to the Registrar by any person aggrieved, the tribunal may make such order as it may think fit for cancelling or varying the registration of a trade mark on the ground of any contravention, or failure to observe a condition entered on the register in relation thereto.
+${newLine}(2) Any person aggrieved by the absence or omission from the register of any entry, or by any entry made in the register without sufficient cause, or by any entry wrongly remaining on the register, or by any error or defect in any entry in the register, may apply in the prescribed manner to the Appellate Board or to the Registrar, and the tribunal may make such order for making, expunging or varying the entry as it may think fit.
+${newLine}(3) The tribunal may in any proceeding under this section decide any question that may be necessary or expedient to decide in connection with the rectification of the register.
+${newLine}(4) The tribunal, of its own motion, may, after giving notice in the prescribed manner to the parties concerned and after giving them an opportunity of being heard, make any order referred to in sub-section (1) or sub-section (2).
+${newLine}(5) Any order of the Appellate Board rectifying the register shall direct that notice of the rectification shall be served upon the Registrar in the prescribed manner who shall upon receipt of such notice rectify the register accordingly.`;

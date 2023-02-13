@@ -1,0 +1,5 @@
+import { newLine, indent1, indent2, indent3 } from "../constants";
+
+export const Section59 = `(1) The registered proprietor of a trade mark may apply in the prescribed manner to the Registrar for leave to add to or alter the trade mark in any manner not substantially affecting the identity thereof, and the Registrar may refuse leave or may grant it on such terms and subject to such limitations as he may think fit.
+${newLine}(2) The Registrar may cause an application under this section to be advertised in the prescribed manner in any case where it appears to him that it is expedient so to do, and where he does so, if within the prescribed time from the date of the advertisement any person gives notice to the Registrar in the prescribed manner of opposition to the application, the Registrar shall, after hearing the parties if so required, decide the matter.
+${newLine}(3) Where leave is granted under this section, the trade mark as altered shall be advertised in the prescribed manner, unless the application has already been advertised under sub-section (2).`;

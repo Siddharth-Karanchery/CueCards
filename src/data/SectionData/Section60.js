@@ -1,0 +1,5 @@
+import { newLine, indent1, indent2, indent3 } from "../constants";
+
+export const Section60 = `(1) The Registrar shall not make any amendment of the register which would have the effect of adding any goods or classes of goods or services to those in respect of which a trade mark is registered (whether in one or more classes) immediately before the amendment is to be made or of antedating the registration of a trade mark in respect of any goods or services:
+${newLine}Provided that this sub-section, shall not apply when the Registrar is satisfied that compliance therewith would involve undue complexity and that the addition or antedating, as the case may be, would not affect any substantial quantity of goods or services and would not substantially prejudice the rights of any person.
+${newLine}(2) A proposal so to amend the register shall be brought to the notice of the registered proprietor of the trade mark affected and advertised in the prescribed manner, and may be opposed before the Registrar by any person aggrieved`;

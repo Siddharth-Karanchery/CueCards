@@ -37,9 +37,33 @@ import { Section36D } from "./SectionData/Section36D";
 import { Section36E } from "./SectionData/Section36E";
 import { Section36F } from "./SectionData/Section36F";
 import { Section36G } from "./SectionData/Section36G";
+import { Section37 } from "./SectionData/Section37";
+import { Section38 } from "./SectionData/Section38";
+import { Section39 } from "./SectionData/Section39";
 import { Section4 } from "./SectionData/Section4";
+import { Section40 } from "./SectionData/Section40";
+import { Section41 } from "./SectionData/Section41";
+import { Section42 } from "./SectionData/Section42";
+import { Section43 } from "./SectionData/Section43";
+import { Section44 } from "./SectionData/Section44";
+import { Section45 } from "./SectionData/Section45";
+import { Section46 } from "./SectionData/Section46";
+import { Section47 } from "./SectionData/Section47";
+import { Section48 } from "./SectionData/Section48";
+import { Section49 } from "./SectionData/Section49";
 import { Section5 } from "./SectionData/Section5";
+import { Section50 } from "./SectionData/Section50";
+import { Section51 } from "./SectionData/Section51";
+import { Section52 } from "./SectionData/Section52";
+import { Section53 } from "./SectionData/Section53";
+import { Section54 } from "./SectionData/Section54";
+import { Section55 } from "./SectionData/Section55";
+import { Section56 } from "./SectionData/Section56";
+import { Section57 } from "./SectionData/Section57";
+import { Section58 } from "./SectionData/Section58";
+import { Section59 } from "./SectionData/Section59";
 import { Section6 } from "./SectionData/Section6";
+import { Section60 } from "./SectionData/Section60";
 import { Section7 } from "./SectionData/Section7";
 import { Section8 } from "./SectionData/Section8";
 import { Section9 } from "./SectionData/Section9";
@@ -1141,14 +1165,14 @@ export const sectionData = [
   {
     chapterNum: "5",
     chapterTitle: "ASSIGNMENT AND TRANSMISSION",
-    points: Section0,
+    points: Section37,
     sectionNum: "37",
     sectionTitle: " Power of registered proprietor to assign and give receipts",
   },
   {
     chapterNum: "5",
     chapterTitle: "ASSIGNMENT AND TRANSMISSION",
-    points: Section0,
+    points: Section38,
     sectionNum: "38",
     sectionTitle:
       " Assignability and transmissibility of registered trade marks",
@@ -1156,7 +1180,7 @@ export const sectionData = [
   {
     chapterNum: "5",
     chapterTitle: "ASSIGNMENT AND TRANSMISSION",
-    points: Section0,
+    points: Section39,
     sectionNum: "39",
     sectionTitle:
       " Assignability and transmissibility of unregistered trade marks",
@@ -1164,7 +1188,7 @@ export const sectionData = [
   {
     chapterNum: "5",
     chapterTitle: "ASSIGNMENT AND TRANSMISSION",
-    points: Section0,
+    points: Section40,
     sectionNum: "40",
     sectionTitle:
       " Restriction on assignment or transmission where multiple exclusive rights would be created",
@@ -1172,7 +1196,7 @@ export const sectionData = [
   {
     chapterNum: "5",
     chapterTitle: "ASSIGNMENT AND TRANSMISSION",
-    points: Section0,
+    points: Section41,
     sectionNum: "41",
     sectionTitle:
       " Restriction on assignment or transmission when exclusive rights would be created in different parts of India",
@@ -1180,7 +1204,7 @@ export const sectionData = [
   {
     chapterNum: "5",
     chapterTitle: "ASSIGNMENT AND TRANSMISSION",
-    points: Section0,
+    points: Section42,
     sectionNum: "42",
     sectionTitle:
       " Conditions for assignment otherwise than in connection with the goodwill of a business",
@@ -1188,7 +1212,7 @@ export const sectionData = [
   {
     chapterNum: "5",
     chapterTitle: "ASSIGNMENT AND TRANSMISSION",
-    points: Section0,
+    points: Section43,
     sectionNum: "43",
     sectionTitle:
       " Assignability and transmissibility of certification trade marks",
@@ -1196,7 +1220,7 @@ export const sectionData = [
   {
     chapterNum: "5",
     chapterTitle: "ASSIGNMENT AND TRANSMISSION",
-    points: Section0,
+    points: Section44,
     sectionNum: "44",
     sectionTitle:
       " Assignability and transmissibility of associated trade marks",
@@ -1204,21 +1228,21 @@ export const sectionData = [
   {
     chapterNum: "5",
     chapterTitle: "ASSIGNMENT AND TRANSMISSION",
-    points: Section0,
+    points: Section45,
     sectionNum: "45",
     sectionTitle: " Registration of assignments and transmissions",
   },
   {
     chapterNum: "6",
     chapterTitle: "USE OF TRADE MARKS AND REGISTERED USERS",
-    points: Section0,
+    points: Section46,
     sectionNum: "46",
     sectionTitle: " Proposed use of trade mark by company to be formed, etc",
   },
   {
     chapterNum: "6",
     chapterTitle: "USE OF TRADE MARKS AND REGISTERED USERS",
-    points: Section0,
+    points: Section47,
     sectionNum: "47",
     sectionTitle:
       " Removal from register and imposition of limitations on ground of non-use",
@@ -1226,21 +1250,21 @@ export const sectionData = [
   {
     chapterNum: "6",
     chapterTitle: "USE OF TRADE MARKS AND REGISTERED USERS",
-    points: Section0,
+    points: Section48,
     sectionNum: "48",
     sectionTitle: " Registered users",
   },
   {
     chapterNum: "6",
     chapterTitle: "USE OF TRADE MARKS AND REGISTERED USERS",
-    points: Section0,
+    points: Section49,
     sectionNum: "49",
     sectionTitle: " Registration as registered user",
   },
   {
     chapterNum: "6",
     chapterTitle: "USE OF TRADE MARKS AND REGISTERED USERS",
-    points: Section0,
+    points: Section50,
     sectionNum: "50",
     sectionTitle:
       " Power of Registrar for variation or cancellation of registration as registered user",
@@ -1248,7 +1272,7 @@ export const sectionData = [
   {
     chapterNum: "6",
     chapterTitle: "USE OF TRADE MARKS AND REGISTERED USERS",
-    points: Section0,
+    points: Section51,
     sectionNum: "51",
     sectionTitle:
       " Power of Registrar to call for information relating to agreement in respect of registered users",
@@ -1256,7 +1280,7 @@ export const sectionData = [
   {
     chapterNum: "6",
     chapterTitle: "USE OF TRADE MARKS AND REGISTERED USERS",
-    points: Section0,
+    points: Section52,
     sectionNum: "52",
     sectionTitle:
       " Right of registered user to take proceedings against infringement",
@@ -1264,7 +1288,7 @@ export const sectionData = [
   {
     chapterNum: "6",
     chapterTitle: "USE OF TRADE MARKS AND REGISTERED USERS",
-    points: Section0,
+    points: Section53,
     sectionNum: "53",
     sectionTitle:
       " No right of permitted user to take proceeding against infringement",
@@ -1272,7 +1296,7 @@ export const sectionData = [
   {
     chapterNum: "6",
     chapterTitle: "USE OF TRADE MARKS AND REGISTERED USERS",
-    points: Section0,
+    points: Section54,
     sectionNum: "54",
     sectionTitle:
       " Registered user not to have right of assignment or transmission",
@@ -1280,7 +1304,7 @@ export const sectionData = [
   {
     chapterNum: "6",
     chapterTitle: "USE OF TRADE MARKS AND REGISTERED USERS",
-    points: Section0,
+    points: Section55,
     sectionNum: "55",
     sectionTitle:
       " Use of one of associated or substantially identical trade marks equivalent to use of another",
@@ -1288,7 +1312,7 @@ export const sectionData = [
   {
     chapterNum: "6",
     chapterTitle: "USE OF TRADE MARKS AND REGISTERED USERS",
-    points: Section0,
+    points: Section56,
     sectionNum: "56",
     sectionTitle:
       " Use of trade mark for export trade and use when form of trade connection changes",
@@ -1296,7 +1320,7 @@ export const sectionData = [
   {
     chapterNum: "7",
     chapterTitle: "RECTIFICATION AND CORRECTION OF THE REGISTER",
-    points: Section0,
+    points: Section57,
     sectionNum: "57",
     sectionTitle:
       "  Power to cancel or vary registration and to rectify the register",
@@ -1304,21 +1328,21 @@ export const sectionData = [
   {
     chapterNum: "7",
     chapterTitle: "RECTIFICATION AND CORRECTION OF THE REGISTER",
-    points: Section0,
+    points: Section58,
     sectionNum: "58",
     sectionTitle: "  Correction of register",
   },
   {
     chapterNum: "7",
     chapterTitle: "RECTIFICATION AND CORRECTION OF THE REGISTER",
-    points: Section0,
+    points: Section59,
     sectionNum: "59",
     sectionTitle: "  Alteration of registered trade marks",
   },
   {
     chapterNum: "7",
     chapterTitle: "RECTIFICATION AND CORRECTION OF THE REGISTER",
-    points: Section0,
+    points: Section60,
     sectionNum: "60",
     sectionTitle:
       "  Adaptation of entries in register to amended or substituted classification of goods or services",
