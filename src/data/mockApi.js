@@ -64,6 +64,14 @@ import { Section58 } from "./SectionData/Section58";
 import { Section59 } from "./SectionData/Section59";
 import { Section6 } from "./SectionData/Section6";
 import { Section60 } from "./SectionData/Section60";
+import { Section61 } from "./SectionData/Section61";
+import { Section62 } from "./SectionData/Section62";
+import { Section63 } from "./SectionData/Section63";
+import { Section64 } from "./SectionData/Section64";
+import { Section65 } from "./SectionData/Section65";
+import { Section66 } from "./SectionData/Section66";
+import { Section67 } from "./SectionData/Section67";
+import { Section68 } from "./SectionData/Section68";
 import { Section7 } from "./SectionData/Section7";
 import { Section8 } from "./SectionData/Section8";
 import { Section9 } from "./SectionData/Section9";
@@ -1350,14 +1358,14 @@ export const sectionData = [
   {
     chapterNum: "8",
     chapterTitle: "COLLECTIVE MARKS",
-    points: Section0,
+    points: Section61,
     sectionNum: "61",
     sectionTitle: "  Special provisions for collective marks",
   },
   {
     chapterNum: "8",
     chapterTitle: "COLLECTIVE MARKS",
-    points: Section0,
+    points: Section62,
     sectionNum: "62",
     sectionTitle:
       "  Collective mark not to be misleading as to character or significance",
@@ -1365,7 +1373,7 @@ export const sectionData = [
   {
     chapterNum: "8",
     chapterTitle: "COLLECTIVE MARKS",
-    points: Section0,
+    points: Section63,
     sectionNum: "63",
     sectionTitle:
       "  Application to be accompanied by regulations governing use of collective marks",
@@ -1373,28 +1381,28 @@ export const sectionData = [
   {
     chapterNum: "8",
     chapterTitle: "COLLECTIVE MARKS",
-    points: Section0,
+    points: Section64,
     sectionNum: "64",
     sectionTitle: "  Acceptance of application and regulations by Registrar",
   },
   {
     chapterNum: "8",
     chapterTitle: "COLLECTIVE MARKS",
-    points: Section0,
+    points: Section65,
     sectionNum: "65",
     sectionTitle: "  Regulations to be open to inspection",
   },
   {
     chapterNum: "8",
     chapterTitle: "COLLECTIVE MARKS",
-    points: Section0,
+    points: Section66,
     sectionNum: "66",
     sectionTitle: "  Amendment of regulations",
   },
   {
     chapterNum: "8",
     chapterTitle: "COLLECTIVE MARKS",
-    points: Section0,
+    points: Section67,
     sectionNum: "67",
     sectionTitle:
       "  Infringement proceedings by registered proprietor of collective mark",
@@ -1402,7 +1410,7 @@ export const sectionData = [
   {
     chapterNum: "8",
     chapterTitle: "COLLECTIVE MARKS",
-    points: Section0,
+    points: Section68,
     sectionNum: "68",
     sectionTitle:
       "  Additional grounds for removal of registration of collective mark",
