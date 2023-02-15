@@ -34,7 +34,7 @@ function Section() {
         Chapter {section[0].chapterNum}: {section[0].chapterTitle}
       </Typography>
       <Container class="section__nav">
-        {section[0].sectionNum !== 1 ? (
+        {section[0].sectionNum !== "1" ? (
           <Box
             className="section__nav__ele"
             onClick={() => {
@@ -51,9 +51,12 @@ function Section() {
               Section {sectionData[position - 1].sectionNum}
             </Typography>
           </Box>
-        ) : null}
-        {section[0].sectionNum !== 159 ? (
+        ) : (
+          <Box className="section__nav__ele"></Box>
+        )}
+        {section[0].sectionNum !== "159" ? (
           <Box
+            sx={{ justifySelf: "end" }}
             className="section__nav__ele"
             onClick={() => {
               navigate({
