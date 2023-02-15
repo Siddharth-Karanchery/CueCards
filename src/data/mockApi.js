@@ -26,9 +26,47 @@ import { Section119 } from "./SectionData/Section119";
 import { Section12 } from "./SectionData/Section12";
 import { Section120 } from "./SectionData/Section120";
 import { Section121 } from "./SectionData/Section121";
+import { Section122 } from "./SectionData/Section122";
+import { Section123 } from "./SectionData/Section123";
+import { Section124 } from "./SectionData/Section124";
+import { Section125 } from "./SectionData/Section125";
+import { Section126 } from "./SectionData/Section126";
+import { Section127 } from "./SectionData/Section127";
+import { Section128 } from "./SectionData/Section128";
+import { Section129 } from "./SectionData/Section129";
 import { Section13 } from "./SectionData/Section13";
+import { Section130 } from "./SectionData/Section130";
+import { Section131 } from "./SectionData/Section131";
+import { Section132 } from "./SectionData/Section132";
+import { Section133 } from "./SectionData/Section133";
+import { Section134 } from "./SectionData/Section134";
+import { Section135 } from "./SectionData/Section135";
+import { Section136 } from "./SectionData/Section136";
+import { Section137 } from "./SectionData/Section137";
+import { Section138 } from "./SectionData/Section138";
+import { Section139 } from "./SectionData/Section139";
 import { Section14 } from "./SectionData/Section14";
+import { Section140 } from "./SectionData/Section140";
+import { Section141 } from "./SectionData/Section141";
+import { Section142 } from "./SectionData/Section142";
+import { Section143 } from "./SectionData/Section143";
+import { Section144 } from "./SectionData/Section144";
+import { Section145 } from "./SectionData/Section145";
+import { Section146 } from "./SectionData/Section146";
+import { Section147 } from "./SectionData/Section147";
+import { Section148 } from "./SectionData/Section148";
+import { Section149 } from "./SectionData/Section149";
 import { Section15 } from "./SectionData/Section15";
+import { Section150 } from "./SectionData/Section150";
+import { Section151 } from "./SectionData/Section151";
+import { Section152 } from "./SectionData/Section152";
+import { Section153 } from "./SectionData/Section153";
+import { Section154 } from "./SectionData/Section154";
+import { Section155 } from "./SectionData/Section155";
+import { Section156 } from "./SectionData/Section156";
+import { Section157 } from "./SectionData/Section157";
+import { Section158 } from "./SectionData/Section158";
+import { Section159 } from "./SectionData/Section159";
 import { Section16 } from "./SectionData/Section16";
 import { Section17 } from "./SectionData/Section17";
 import { Section18 } from "./SectionData/Section18";
@@ -1841,21 +1879,21 @@ export const sectionData = [
   {
     chapterNum: "13",
     chapterTitle: "MISCELLANEOUS",
-    points: Section0,
+    points: Section122,
     sectionNum: "122",
     sectionTitle: "  Protection of action taken in good faith",
   },
   {
     chapterNum: "13",
     chapterTitle: "MISCELLANEOUS",
-    points: Section0,
+    points: Section123,
     sectionNum: "123",
     sectionTitle: "  Certain persons to be public servants",
   },
   {
     chapterNum: "13",
     chapterTitle: "MISCELLANEOUS",
-    points: Section0,
+    points: Section124,
     sectionNum: "124",
     sectionTitle:
       "  Stay of proceedings where the validity of registration of the trade mark is questioned, etc",
@@ -1863,7 +1901,7 @@ export const sectionData = [
   {
     chapterNum: "13",
     chapterTitle: "MISCELLANEOUS",
-    points: Section0,
+    points: Section125,
     sectionNum: "125",
     sectionTitle:
       " Application for rectification of register to be made to Appellate Board in certain cases",
@@ -1871,63 +1909,63 @@ export const sectionData = [
   {
     chapterNum: "13",
     chapterTitle: "MISCELLANEOUS",
-    points: Section0,
+    points: Section126,
     sectionNum: "126",
     sectionTitle: "  Implied warranty on sale of marked goods",
   },
   {
     chapterNum: "13",
     chapterTitle: "MISCELLANEOUS",
-    points: Section0,
+    points: Section127,
     sectionNum: "127",
     sectionTitle: "  Powers of Registrar",
   },
   {
     chapterNum: "13",
     chapterTitle: "MISCELLANEOUS",
-    points: Section0,
+    points: Section128,
     sectionNum: "128",
     sectionTitle: "  Exercise of discretionary power by Registrar",
   },
   {
     chapterNum: "13",
     chapterTitle: "MISCELLANEOUS",
-    points: Section0,
+    points: Section129,
     sectionNum: "129",
     sectionTitle: "  Evidence before Registrar",
   },
   {
     chapterNum: "13",
     chapterTitle: "MISCELLANEOUS",
-    points: Section0,
+    points: Section130,
     sectionNum: "130",
     sectionTitle: "  Death of party to a proceeding",
   },
   {
     chapterNum: "13",
     chapterTitle: "MISCELLANEOUS",
-    points: Section0,
+    points: Section131,
     sectionNum: "131",
     sectionTitle: "  Extension of time",
   },
   {
     chapterNum: "13",
     chapterTitle: "MISCELLANEOUS",
-    points: Section0,
+    points: Section132,
     sectionNum: "132",
     sectionTitle: "  Abandonment",
   },
   {
     chapterNum: "13",
     chapterTitle: "MISCELLANEOUS",
-    points: Section0,
+    points: Section133,
     sectionNum: "133",
     sectionTitle: "  Preliminary advice by the Registrar as to distinctiveness",
   },
   {
     chapterNum: "13",
     chapterTitle: "MISCELLANEOUS",
-    points: Section0,
+    points: Section134,
     sectionNum: "134",
     sectionTitle:
       "  Suit for infringement, etc., to be instituted before District Court",
@@ -1935,21 +1973,21 @@ export const sectionData = [
   {
     chapterNum: "13",
     chapterTitle: "MISCELLANEOUS",
-    points: Section0,
+    points: Section135,
     sectionNum: "135",
     sectionTitle: "  Relief in suits for infringement or for passing off",
   },
   {
     chapterNum: "13",
     chapterTitle: "MISCELLANEOUS",
-    points: Section0,
+    points: Section136,
     sectionNum: "136",
     sectionTitle: "  Registered user to be impleaded in certain proceedings",
   },
   {
     chapterNum: "13",
     chapterTitle: "MISCELLANEOUS",
-    points: Section0,
+    points: Section137,
     sectionNum: "137",
     sectionTitle:
       "  Evidence of entries in register, etc, and things done by the Registrar",
@@ -1957,7 +1995,7 @@ export const sectionData = [
   {
     chapterNum: "13",
     chapterTitle: "MISCELLANEOUS",
-    points: Section0,
+    points: Section138,
     sectionNum: "138",
     sectionTitle:
       "  Registrar and other officers not compellable to produce register, etc",
@@ -1965,14 +2003,14 @@ export const sectionData = [
   {
     chapterNum: "13",
     chapterTitle: "MISCELLANEOUS",
-    points: Section0,
+    points: Section139,
     sectionNum: "139",
     sectionTitle: "  Power to require goods to show indication of origin",
   },
   {
     chapterNum: "13",
     chapterTitle: "MISCELLANEOUS",
-    points: Section0,
+    points: Section140,
     sectionNum: "140",
     sectionTitle:
       "  Power to require information of imported goods bearing false trade marks",
@@ -1980,42 +2018,42 @@ export const sectionData = [
   {
     chapterNum: "13",
     chapterTitle: "MISCELLANEOUS",
-    points: Section0,
+    points: Section141,
     sectionNum: "141",
     sectionTitle: "  Certificate of validity",
   },
   {
     chapterNum: "13",
     chapterTitle: "MISCELLANEOUS",
-    points: Section0,
+    points: Section142,
     sectionNum: "142",
     sectionTitle: "  Groundless threats of legal proceedings",
   },
   {
     chapterNum: "13",
     chapterTitle: "MISCELLANEOUS",
-    points: Section0,
+    points: Section143,
     sectionNum: "143",
     sectionTitle: "  Address for service",
   },
   {
     chapterNum: "13",
     chapterTitle: "MISCELLANEOUS",
-    points: Section0,
+    points: Section144,
     sectionNum: "144",
     sectionTitle: "  Trade usages, etc, to be taken into consideration",
   },
   {
     chapterNum: "13",
     chapterTitle: "MISCELLANEOUS",
-    points: Section0,
+    points: Section145,
     sectionNum: "145",
     sectionTitle: "  Agents",
   },
   {
     chapterNum: "13",
     chapterTitle: "MISCELLANEOUS",
-    points: Section0,
+    points: Section146,
     sectionNum: "146",
     sectionTitle:
       "  Marks registered by an agent or representative without authority",
@@ -2023,42 +2061,42 @@ export const sectionData = [
   {
     chapterNum: "13",
     chapterTitle: "MISCELLANEOUS",
-    points: Section0,
+    points: Section147,
     sectionNum: "147",
     sectionTitle: "  Indexes",
   },
   {
     chapterNum: "13",
     chapterTitle: "MISCELLANEOUS",
-    points: Section0,
+    points: Section148,
     sectionNum: "148",
     sectionTitle: "  Documents open to public inspection",
   },
   {
     chapterNum: "13",
     chapterTitle: "MISCELLANEOUS",
-    points: Section0,
+    points: Section149,
     sectionNum: "149",
     sectionTitle: "  Reports of Registrar to be placed before Parliament",
   },
   {
     chapterNum: "13",
     chapterTitle: "MISCELLANEOUS",
-    points: Section0,
+    points: Section150,
     sectionNum: "150",
     sectionTitle: "  Fees and surcharge",
   },
   {
     chapterNum: "13",
     chapterTitle: "MISCELLANEOUS",
-    points: Section0,
+    points: Section151,
     sectionNum: "151",
     sectionTitle: "  Savings in respect of certain matters in Chapter XII",
   },
   {
     chapterNum: "13",
     chapterTitle: "MISCELLANEOUS",
-    points: Section0,
+    points: Section152,
     sectionNum: "152",
     sectionTitle:
       "  Declaration as to ownership of trade mark not registrable under the Registration Act, 1908",
@@ -2066,14 +2104,14 @@ export const sectionData = [
   {
     chapterNum: "13",
     chapterTitle: "MISCELLANEOUS",
-    points: Section0,
+    points: Section153,
     sectionNum: "153",
     sectionTitle: "  Government to be bound",
   },
   {
     chapterNum: "13",
     chapterTitle: "MISCELLANEOUS",
-    points: Section0,
+    points: Section154,
     sectionNum: "154",
     sectionTitle:
       "  Special provisions relating to applications for registration from citizens of convention countries",
@@ -2081,35 +2119,35 @@ export const sectionData = [
   {
     chapterNum: "13",
     chapterTitle: "MISCELLANEOUS",
-    points: Section0,
+    points: Section155,
     sectionNum: "155",
     sectionTitle: "  Provision as to reciprocity",
   },
   {
     chapterNum: "13",
     chapterTitle: "MISCELLANEOUS",
-    points: Section0,
+    points: Section156,
     sectionNum: "156",
     sectionTitle: "  Power of Central Government to remove difficulties",
   },
   {
     chapterNum: "13",
     chapterTitle: "MISCELLANEOUS",
-    points: Section0,
+    points: Section157,
     sectionNum: "157",
     sectionTitle: "  Power to make rules",
   },
   {
     chapterNum: "13",
     chapterTitle: "MISCELLANEOUS",
-    points: Section0,
+    points: Section158,
     sectionNum: "158",
     sectionTitle: "  Amendments",
   },
   {
     chapterNum: "13",
     chapterTitle: "MISCELLANEOUS",
-    points: Section0,
+    points: Section159,
     sectionNum: "159",
     sectionTitle: "  Repeal and savings",
   },

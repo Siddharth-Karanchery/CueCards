@@ -1,0 +1,3 @@
+import { newLine, indent1, indent2, indent3 } from "../constants";
+
+export const Section130 = `If a person who is a party to a proceeding under this Act (not being a proceeding before the Appellate Board or a court) dies pending the proceeding, the Registrar may, on request, and on proof to his satisfaction of the transmission of the interest of the deceased person, substitute in the proceeding his successor in interest in his place, or, if the Registrar is of opinion that the interest of the deceased person is sufficiently represented by the surviving parties, permit the proceeding to continue without the substitution of his successor in interest.`;

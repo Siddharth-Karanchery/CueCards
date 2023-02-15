@@ -1,0 +1,6 @@
+import { newLine, indent1, indent2, indent3 } from "../constants";
+
+export const Section151 = `Nothing in Chapter XII shall—
+${indent1}(a) exempt any person from any suit or other proceeding which might, but for anything in that Chapter, be brought against him; or
+${indent1}(b) entitle any person to refuse to make a complete discovery, or to answer any question or interrogatory in any suit or other proceeding, but such discovery or answer shall not be admissible in evidence against such person in any such prosecution for an offence under that Chapter or against clause (h) of section 112 of the Customs Act, 1962 (52 of 1962) relating to confiscation of goods under clause (d) of section 111 of that Act and notified by the Central Government under clause (n) of sub-section (2) of section 11 thereof for the protection of trade marks relating to import of goods; or
+${indent1}(c) be construed so as to render liable to any prosecution or punishment any servant of a master resident in India who in good faith acts in obedience to the instructions of such master, and, on demand made by or on behalf of the prosecutor, has given full information as to his master and as to the instructions which he has received from his master.`;

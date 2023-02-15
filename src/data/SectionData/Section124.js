@@ -1,0 +1,12 @@
+import { newLine, indent1, indent2, indent3 } from "../constants";
+
+export const Section124 = `(1) Where in any suit for infringement of a trade mark—
+${indent1}(a) the defendant pleads that registration of the plaintiff’s trade mark is invalid; or
+${indent1}(b) the defendant raises a defence under clause (e) of sub-section (2) of section 30 and the plaintiff pleads the invalidity of registration of the defendant’s trade mark,
+${newLine}the court trying the suit (hereinafter referred to as the court), shall,—
+${indent1}(i) if any proceedings for rectification of the register in relation to the plaintiff’s or defendant’s trade mark are pending before the Registrar or the Appellate Board, stay the suit pending the final disposal of such proceedings;
+${indent1}(ii) if no such proceedings are pending and the court is satisfied that the plea regarding the invalidity of the registration of the plantiff’s or defendant’s trade mark is prima facie tenable, raise an issue regarding the same and adjourn the case for a period of three months from the date of the framing of the issue in order to enable the party concerned to apply to the Appellate Board for rectification of the register.
+${newLine}(2) If the party concerned proves to the court that he has made any such application as is referred to in clause (b) (ii) of sub-section (1) within the time specified therein or within such extended time as the court may for sufficient cause allow, the trial of the suit shall stand stayed until the final disposal of the rectification proceedings.
+${newLine}(3) If no such application as aforesaid has been made within the time so specified or within such extended time as the court may allow, the issue as to the validity of the registration of the trade mark concerned shall be deemed to have been abandoned and the court shall proceed with the suit in regard to the other issues in the case.
+${newLine}(4) The final order made in any rectification proceedings referred to in sub-section (1) or sub-section (2) shall be binding upon the parties and the court shall dispose of the suit conformably to such order in so far as it relates to the issue as to the validity of the registration of the trade mark.
+${newLine}(5) The stay of a suit for the infringement of a trade mark under this section shall not preclude the court from making any interlocutory order (including any order granting an injunction, directing account to be kept, appointing a receiver or attaching any property), during the period of the stay of the suit.`;

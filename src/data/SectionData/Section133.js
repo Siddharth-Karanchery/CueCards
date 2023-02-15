@@ -1,0 +1,4 @@
+import { newLine, indent1, indent2, indent3 } from "../constants";
+
+export const Section133 = `(1) The Registrar may, on application made to him in the prescribed manner by any person who proposes to apply for the registration of a trade mark, give advice as to whether the trade mark appears to him prima facie to be distinctive.
+${newLine}(2) If, on an application for the registration of a trade mark as to which the Registrar has given advice as aforesaid in the affirmative made within three months after the advice was given, the Registrar, after further investigation or consideration, gives notice, to the applicant of objection on the ground that the trade mark is not distinctive, the applicant shall be entitled, on giving notice of withdrawal of the application within the prescribed period, to have repaid to him any fee paid on the filing of the application.`;

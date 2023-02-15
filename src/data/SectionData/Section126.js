@@ -1,0 +1,3 @@
+import { newLine, indent1, indent2, indent3 } from "../constants";
+
+export const Section126 = `Where a mark or a trade mark or trade description has been applied to the goods on sale or in the contract for sale of any goods or in relation to any service, the seller shall be deemed to warrant that the mark is a genuine mark and not falsely applied, or that the trade description is not a false trade description within the meaning of this Act unless the contrary is expressed in writing signed by or on behalf of the seller and delivered at the time of the sale of goods or providing of services on contract to and accepted by the buyer.`;
