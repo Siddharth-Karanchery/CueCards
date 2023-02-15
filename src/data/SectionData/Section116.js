@@ -1,0 +1,3 @@
+import { newLine, indent1, indent2, indent3 } from "../constants";
+
+export const Section116 = `In the case of goods brought into India by sea, evidence of the port of shipment shall, in a prosecution for an offence under this Act or under clause (b) of section 112 of the Customs Act, 1962 (52 of 1962) relating to confiscation of goods under clause (d) of section 111 and notified by the Central Government under clause (n) of sub-section (2) of section 11 of the said Act for the protection of trade marks relating to import of goods, be prima facie evidence of the place or country in which the goods are made or produced.`;

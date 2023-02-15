@@ -3,8 +3,29 @@ import { Section0 } from "./SectionData/Section0";
 import { Section1 } from "./SectionData/Section1";
 import { Section10 } from "./SectionData/Section10";
 import { Section100 } from "./SectionData/Section100";
+import { Section101 } from "./SectionData/Section101";
+import { Section102 } from "./SectionData/Section102";
+import { Section103 } from "./SectionData/Section103";
+import { Section104 } from "./SectionData/Section104";
+import { Section105 } from "./SectionData/Section105";
+import { Section106 } from "./SectionData/Section106";
+import { Section107 } from "./SectionData/Section107";
+import { Section108 } from "./SectionData/Section108";
+import { Section109 } from "./SectionData/Section109";
 import { Section11 } from "./SectionData/Section11";
+import { Section110 } from "./SectionData/Section110";
+import { Section111 } from "./SectionData/Section111";
+import { Section112 } from "./SectionData/Section112";
+import { Section113 } from "./SectionData/Section113";
+import { Section114 } from "./SectionData/Section114";
+import { Section115 } from "./SectionData/Section115";
+import { Section116 } from "./SectionData/Section116";
+import { Section117 } from "./SectionData/Section117";
+import { Section118 } from "./SectionData/Section118";
+import { Section119 } from "./SectionData/Section119";
 import { Section12 } from "./SectionData/Section12";
+import { Section120 } from "./SectionData/Section120";
+import { Section121 } from "./SectionData/Section121";
 import { Section13 } from "./SectionData/Section13";
 import { Section14 } from "./SectionData/Section14";
 import { Section15 } from "./SectionData/Section15";
@@ -1664,21 +1685,21 @@ export const sectionData = [
   {
     chapterNum: "12",
     chapterTitle: "OFFENCES, PENALTIES AND PROCEDURE",
-    points: Section0,
+    points: Section101,
     sectionNum: "101",
     sectionTitle: "  Meaning of applying trade marks and trade descriptions",
   },
   {
     chapterNum: "12",
     chapterTitle: "OFFENCES, PENALTIES AND PROCEDURE",
-    points: Section0,
+    points: Section102,
     sectionNum: "102",
     sectionTitle: "  Falsifying and falsely applying trade marks",
   },
   {
     chapterNum: "12",
     chapterTitle: "OFFENCES, PENALTIES AND PROCEDURE",
-    points: Section0,
+    points: Section103,
     sectionNum: "103",
     sectionTitle:
       "  Penalty for applying false trade marks, trade descriptions, etc",
@@ -1686,7 +1707,7 @@ export const sectionData = [
   {
     chapterNum: "12",
     chapterTitle: "OFFENCES, PENALTIES AND PROCEDURE",
-    points: Section0,
+    points: Section104,
     sectionNum: "104",
     sectionTitle:
       "  Penalty for selling goods or providing services to which false trade mark or false trade description is applied",
@@ -1694,14 +1715,14 @@ export const sectionData = [
   {
     chapterNum: "12",
     chapterTitle: "OFFENCES, PENALTIES AND PROCEDURE",
-    points: Section0,
+    points: Section105,
     sectionNum: "105",
     sectionTitle: "  Enhanced penalty on second or subsequent conviction",
   },
   {
     chapterNum: "12",
     chapterTitle: "OFFENCES, PENALTIES AND PROCEDURE",
-    points: Section0,
+    points: Section106,
     sectionNum: "106",
     sectionTitle:
       "  Penalty for removing piece goods, etc. contrary to section 81",
@@ -1709,7 +1730,7 @@ export const sectionData = [
   {
     chapterNum: "12",
     chapterTitle: "OFFENCES, PENALTIES AND PROCEDURE",
-    points: Section0,
+    points: Section107,
     sectionNum: "107",
     sectionTitle:
       "  Penalty for falsely representing a trade mark as registered",
@@ -1717,7 +1738,7 @@ export const sectionData = [
   {
     chapterNum: "12",
     chapterTitle: "OFFENCES, PENALTIES AND PROCEDURE",
-    points: Section0,
+    points: Section108,
     sectionNum: "108",
     sectionTitle:
       "  Penalty for improperly describing a place of business as connected with the Trade Marks Office",
@@ -1725,28 +1746,28 @@ export const sectionData = [
   {
     chapterNum: "12",
     chapterTitle: "OFFENCES, PENALTIES AND PROCEDURE",
-    points: Section0,
+    points: Section109,
     sectionNum: "109",
     sectionTitle: "  Penalty for falsification of entries in the register",
   },
   {
     chapterNum: "12",
     chapterTitle: "OFFENCES, PENALTIES AND PROCEDURE",
-    points: Section0,
+    points: Section110,
     sectionNum: "110",
     sectionTitle: "  No offence in certain cases",
   },
   {
     chapterNum: "12",
     chapterTitle: "OFFENCES, PENALTIES AND PROCEDURE",
-    points: Section0,
+    points: Section111,
     sectionNum: "111",
     sectionTitle: "  Forfeiture of goods",
   },
   {
     chapterNum: "12",
     chapterTitle: "OFFENCES, PENALTIES AND PROCEDURE",
-    points: Section0,
+    points: Section112,
     sectionNum: "112",
     sectionTitle:
       "  Exemption of certain persons employed in ordinary course of business",
@@ -1754,7 +1775,7 @@ export const sectionData = [
   {
     chapterNum: "12",
     chapterTitle: "OFFENCES, PENALTIES AND PROCEDURE",
-    points: Section0,
+    points: Section113,
     sectionNum: "113",
     sectionTitle:
       "  Procedure where invalidity of registration is pleaded by the accused",
@@ -1762,14 +1783,14 @@ export const sectionData = [
   {
     chapterNum: "12",
     chapterTitle: "OFFENCES, PENALTIES AND PROCEDURE",
-    points: Section0,
+    points: Section114,
     sectionNum: "114",
     sectionTitle: "  Offences by companies",
   },
   {
     chapterNum: "12",
     chapterTitle: "OFFENCES, PENALTIES AND PROCEDURE",
-    points: Section0,
+    points: Section115,
     sectionNum: "115",
     sectionTitle:
       "  Cognizance of certain offences and the powers of police officer for search and seizure",
@@ -1777,42 +1798,42 @@ export const sectionData = [
   {
     chapterNum: "12",
     chapterTitle: "OFFENCES, PENALTIES AND PROCEDURE",
-    points: Section0,
+    points: Section116,
     sectionNum: "116",
     sectionTitle: "  Evidence of origin of goods imported by sea",
   },
   {
     chapterNum: "12",
     chapterTitle: "OFFENCES, PENALTIES AND PROCEDURE",
-    points: Section0,
+    points: Section117,
     sectionNum: "117",
     sectionTitle: "  Costs of defence or prosecution",
   },
   {
     chapterNum: "12",
     chapterTitle: "OFFENCES, PENALTIES AND PROCEDURE",
-    points: Section0,
+    points: Section118,
     sectionNum: "118",
     sectionTitle: "  Limitation of prosecution",
   },
   {
     chapterNum: "12",
     chapterTitle: "OFFENCES, PENALTIES AND PROCEDURE",
-    points: Section0,
+    points: Section119,
     sectionNum: "119",
     sectionTitle: "  Information as to commission of offence",
   },
   {
     chapterNum: "12",
     chapterTitle: "OFFENCES, PENALTIES AND PROCEDURE",
-    points: Section0,
+    points: Section120,
     sectionNum: "120",
     sectionTitle: "  Punishment of abetment in India of acts done out of India",
   },
   {
     chapterNum: "12",
     chapterTitle: "OFFENCES, PENALTIES AND PROCEDURE",
-    points: Section0,
+    points: Section121,
     sectionNum: "121",
     sectionTitle:
       "  Instructions of Central Government as to permissible variation to be observed by criminal courts",

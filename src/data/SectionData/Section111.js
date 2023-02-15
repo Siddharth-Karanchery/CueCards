@@ -1,0 +1,6 @@
+import { newLine, indent1, indent2, indent3 } from "../constants";
+
+export const Section111 = `(1) Where a person is convicted of an offence under section 103 or section 104 or section 105 or is acquitted of an offence under section 103 or section 104 on proof that he acted without intent to defraud, or under section 104 on proof of the matters specified in clause (a), clause (b) or clause (c) of that section, the court convicting or acquitting him may direct the forfeiture to Government of all goods and things by means of, or in relation to, which the offence has been committed, or but for such proof as aforesaid would have been committed.
+${newLine}(2) When a forfeiture is directed on a conviction and an appeal lies against the conviction, an appeal shall lie against the forfeiture also.
+${newLine}(3) When a forfeiture is directed on acquittal and the goods or things to which the direction relates are of value exceeding fifty rupees, an appeal against the forfeiture may be preferred, within thirty days from the date of the direction, to the court to which in appealable cases appeals lie from sentences of the court which directed the forfeiture.
+${newLine}(4) When a forfeiture is directed on a conviction, the court, before whom the person is convicted, may order any forfeited articles to be destroyed or otherwise disposed of as the court thinks fit.`;

@@ -1,0 +1,3 @@
+import { newLine, indent1, indent2, indent3 } from "../constants";
+
+export const Section106 = `If any person removes or attempts to remove or causes or attempts to cause to be removed for sale from any premises referred to in section 81 or sells or exposes for sale or has in his possession for sale or for any purpose of trade or manufacture piece goods or cotton yarn or cotton thread which is not marked as required by that section, every such piece and every such bundle of yarn and all such thread and everything used for the packing thereof shall be forfeited to Government and such person shall be punishable with fine which may extend to one thousand rupees.`;

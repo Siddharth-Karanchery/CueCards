@@ -1,0 +1,8 @@
+import { newLine, indent1, indent2, indent3 } from "../constants";
+
+export const Section104 = `Any person who sells, lets for hire or exposes for sale, or hires or has in his possession for sale, goods or things, or provides or hires services, to which any false trade mark or false trade description is applied or which, being required under section 139 to have applied to them an indication of the country or place in which they were made or produced or the name and address of the manufacturer, or person for whom the goods are manufactured or services provided, as the case may be, are without the indications so required, shall, unless he proves,—
+${indent1}(a) that, having taken all reasonable precautions against committing an offence against this section, he had at the time of commission of the alleged offence no reason to suspect the genuineness of the trade mark or trade description or that any offence had been committed in respect of the goods or services; or
+${indent1}(b) that, on demand by or on behalf of the prosecutor, he gave all the information in his power with respect to the person from whom he obtained such goods or things or services; or
+${indent1}(c) that otherwise he had acted innocently,
+${newLine}be punishable with imprisonment for a term which shall not be less than six months but which may extend to three years and with fine which shall not be less than fifty thousand rupees but which may extend to two lakh rupees:
+${newLine}Provided that the court may, for adequate and special reasons to be mentioned in the judgment, impose a sentence of imprisonment for a term of less than six months or a fine of less than fifty thousand rupees.`;

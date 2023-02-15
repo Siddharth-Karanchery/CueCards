@@ -1,0 +1,3 @@
+import { newLine, indent1, indent2, indent3 } from "../constants";
+
+export const Section118 = `No prosecution for an offence under this Act or under clause (b) of section 112 of the Customs Act, 1962 (52 of 1962), relating to confiscation of goods under clause (d) of section 111 and notified by the Central Government under clause (n) of sub-section (2) of section 11 of the said Act for the protection of trade marks, relating to import of goods shall be commenced after expiration of three years next after the commission of the offence charged, or two years after the discovery thereof by the prosecutor, whichever expiration first-happens.`;
