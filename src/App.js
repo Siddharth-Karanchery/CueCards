@@ -25,6 +25,7 @@ import DownloadIcon from "@mui/icons-material/Download";
 import InfoIcon from "@mui/icons-material/Info";
 import About from "./modules/About/About";
 import MyErrorBoundary from "./modules/ErrorBoundary/ErrorBroundary";
+import useMediaQuery from "@mui/material/useMediaQuery";
 
 function App() {
   const [showMenu, setShowMenu] = React.useState(false);
@@ -43,6 +44,8 @@ function App() {
     setShowMenu((prev) => !prev);
   };
 
+  const isNotMobile = useMediaQuery("(min-width:450px)");
+
   return (
     <div className="App">
       <ThemeProvider theme={THEME}>
@@ -55,7 +58,7 @@ function App() {
                 onClick={onMenuSelect}
               />
               <Typography
-                variant="h2"
+                variant={isNotMobile ? "h2" : "h4"}
                 component="h2"
                 className="App__Header__Title"
               >
@@ -126,26 +129,44 @@ function App() {
                     </ListItem>
                   </Link>
                 </List>
-                <MenuList />
+                {isNotMobile ? null : <Navigation />}
               </Box>
             </Drawer>
             <Box className="App__Body">
-              <Box className="App__Body__Navigation">
-                <Typography
-                  variant="h4"
-                  component="h4"
-                  className="App__Header__Title"
-                >
-                  Contents
-                </Typography>
-                <Navigation />
-              </Box>
+              {isNotMobile ? (
+                <Box className="App__Body__Navigation">
+                  <Typography
+                    variant="h4"
+                    component="h4"
+                    className="App__Header__Title"
+                  >
+                    Contents
+                  </Typography>
+                  <Navigation />
+                </Box>
+              ) : null}
               <Container class="App__Body__Main">
                 <Routes>
-                  <Route exact path="/CueCards/" element={<Title />} />
-                  <Route exact path="/CueCards/chapter" element={<Chapter />} />
-                  <Route exact path="/CueCards/section" element={<Section />} />
-                  <Route exact path="/CueCards/about" element={<About />} />
+                  <Route
+                    exact
+                    path="/CueCards/"
+                    element={<Title isNotMobile={isNotMobile} />}
+                  />
+                  <Route
+                    exact
+                    path="/CueCards/chapter"
+                    element={<Chapter isNotMobile={isNotMobile} />}
+                  />
+                  <Route
+                    exact
+                    path="/CueCards/section"
+                    element={<Section isNotMobile={isNotMobile} />}
+                  />
+                  <Route
+                    exact
+                    path="/CueCards/about"
+                    element={<About isNotMobile={isNotMobile} />}
+                  />
                 </Routes>
               </Container>
             </Box>

@@ -68,3 +68,17 @@
   min-height: 50%;
   align-items: center;
 }
+
+@media only screen and (max-width: 450px) {
+  .App__Body {
+    flex-direction: column;
+    width: 100%;
+  }
+  .App__Body__Navigation {
+    width: 100%;
+  }
+  .App__Body__Main {
+    width: 97%;
+    height: 45rem;
+  }
+}

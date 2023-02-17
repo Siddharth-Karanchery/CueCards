@@ -9,11 +9,15 @@ import { useNavigate, createSearchParams } from "react-router-dom";
 import { RxEyeOpen } from "react-icons/rx";
 import { MdOutlineFlipCameraAndroid } from "react-icons/md";
 
-function Title() {
+function Title(props) {
   const [flip, setFlip] = React.useState(false);
   const navigate = useNavigate();
 
   const chapterRefs = React.useRef([null]);
+
+  const isNotMobile = props.isNotMobile;
+
+  console.log("isNotMobile: ", isNotMobile);
 
   chapterRefs.current = overview.map(
     (chapter, i) => chapterRefs.current[i] ?? React.createRef()
@@ -32,6 +36,7 @@ function Title() {
 
     chapterRefs.current.forEach((ele) => (ele.current.hidden = true));
   });
+
   return (
     <>
       <Flippy
@@ -40,8 +45,8 @@ function Title() {
         flipDirection="horizontal" // horizontal or vertical
         isFlipped={flip}
         style={{
-          width: "70%",
-          height: "60%",
+          width: isNotMobile ? "60%" : "90%",
+          height: isNotMobile ? "70%" : "100%",
         }} /// these are optional style, it is not necessary
       >
         <FrontSide
@@ -65,7 +70,9 @@ function Title() {
               flexDirection: "column",
               justifyContent: "space-evenly",
               alignItems: "flex-start",
-              height: "95%",
+              height: isNotMobile ? "95%" : "100%",
+              width: isNotMobile ? null : "105%",
+              margin: isNotMobile ? null : "0 0 0 -2rem",
               textAlign: "left",
             }}
           >
@@ -76,6 +83,7 @@ function Title() {
                     display: "flex",
                     flexDirection: "row",
                     alignItems: "center",
+                    justifyContent: "flex-start",
                   }}
                   key={i}
                 >
@@ -83,8 +91,12 @@ function Title() {
                     onClick={(e) => clickHandler(e, chapterRefs.current[i])}
                   />
                   <Typography
-                    variant="Subtitle2"
-                    sx={{ cursor: "pointer", marginLeft: "1rem" }}
+                    variant={isNotMobile ? "Subtitle2" : "caption"}
+                    sx={{
+                      cursor: "pointer",
+                      marginLeft: "1rem",
+                      minWidth: isNotMobile ? null : "6rem",
+                    }}
                     onClick={() => {
                       navigate({
                         pathname: "/CueCards/chapter",
@@ -98,8 +110,13 @@ function Title() {
                   </Typography>
 
                   <Typography
-                    variant="Subtitle2"
-                    sx={{ cursor: "pointer" }}
+                    variant={isNotMobile ? "Subtitle2" : "caption"}
+                    sx={{
+                      cursor: "pointer",
+                      marginLeft: "0.5rem",
+
+                      maxWidth: isNotMobile ? null : "12rem",
+                    }}
                     ref={chapterRefs.current[i]}
                     onClick={() => {
                       navigate({

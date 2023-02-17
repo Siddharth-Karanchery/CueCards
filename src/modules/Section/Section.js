@@ -10,27 +10,25 @@ import {
 import { GrPrevious, GrNext } from "react-icons/gr";
 import { sectionData } from "../../data/mockApi";
 
-function Section() {
+function Section(props) {
   const [searchParams] = useSearchParams();
   const navigate = useNavigate();
 
   const sectionNum = searchParams.get("sno");
 
+  const isNotMobile = props.isNotMobile;
+
   const section = sectionData.filter(
     (section) => section.sectionNum == searchParams.get("sno")
   );
 
-  // console.log("section[0].sectionNum:  ", section[0].sectionNum);
-
   const position = sectionData
     .map((section) => section.sectionNum)
     .indexOf(searchParams.get("sno"));
-  // console.log("position: ", position);
-  // console.log("prev: ", sectionData[position - 1].sectionNum);
-  // console.log("next: ", sectionData[position + 1].sectionNum);
+
   return (
     <Container class="chapter">
-      <Typography variant="h3">
+      <Typography variant={isNotMobile ? "h3" : "h5"}>
         Chapter {section[0].chapterNum}: {section[0].chapterTitle}
       </Typography>
       <Container class="section__nav">
@@ -74,15 +72,19 @@ function Section() {
           </Box>
         ) : null}
       </Container>
-      <Typography variant="h4" sx={{ margin: "0.5rem 0 1.5rem 0" }}>
+      <Typography
+        variant={isNotMobile ? "h4" : "h6"}
+        sx={{ margin: "0.5rem 0 1.5rem 0" }}
+      >
         Section {section[0].sectionNum}: {section[0].sectionTitle}
       </Typography>
       <Typography
-        variant="h5"
+        variant={isNotMobile ? "h5" : "subtitle1"}
         style={{
           whiteSpace: "pre-line",
           textAlign: "justify",
           textDecoration: "",
+          width: isNotMobile ? null : "95%",
         }}
       >
         {section[0].points}

@@ -9,10 +9,12 @@ import {
   createSearchParams,
 } from "react-router-dom";
 
-function Chapter() {
+function Chapter(props) {
   const [searchParams] = useSearchParams();
 
   const navigate = useNavigate();
+
+  const isNotMobile = props.isNotMobile;
 
   const chapter = overview.filter(
     (chapter) => chapter.chapterNum === searchParams.get("cno")
@@ -25,18 +27,21 @@ function Chapter() {
         flipOnClick={true} // default false
         flipDirection="horizontal" // horizontal or vertical
         style={{
-          width: "25%",
-          height: "15rem",
+          width: isNotMobile ? "25%" : "90%",
+          height: isNotMobile ? "15rem" : "12rem",
         }} /// these are optional style, it is not necessary
       >
         <FrontSide>
-          <Typography variant="h4" className="sectionText">
+          <Typography
+            variant={isNotMobile ? "h4" : "h5"}
+            className="sectionText"
+          >
             Section {section.sectionNum}
           </Typography>
         </FrontSide>
         <BackSide>
           <Typography
-            variant="h5"
+            variant={isNotMobile ? "h5" : "h6"}
             class="sectionText"
             sx={{ cursor: "pointer" }}
             onClick={() => {
@@ -57,7 +62,7 @@ function Chapter() {
 
   return (
     <Container class="chapter">
-      <Typography variant="h3">
+      <Typography variant={isNotMobile ? "h3" : "h5"}>
         Chapter {chapter[0].chapterNum}: {chapter[0].chapterTitle}
       </Typography>
       <Container class="chapter__body">{sections}</Container>
