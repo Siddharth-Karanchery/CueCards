@@ -23,9 +23,11 @@ import {
 import HomeIcon from "@mui/icons-material/Home";
 import DownloadIcon from "@mui/icons-material/Download";
 import InfoIcon from "@mui/icons-material/Info";
+import SchoolIcon from "@mui/icons-material/School";
 import About from "./modules/About/About";
 import MyErrorBoundary from "./modules/ErrorBoundary/ErrorBroundary";
 import useMediaQuery from "@mui/material/useMediaQuery";
+import QuestionBank from "./modules/QuestionBank/QuestionBank";
 
 function App() {
   const [showMenu, setShowMenu] = React.useState(false);
@@ -128,6 +130,20 @@ function App() {
                       </ListItemButton>
                     </ListItem>
                   </Link>
+                  <Link
+                    to={"/CueCards/questionbank"}
+                    onClick={onMenuSelect}
+                    style={{ textDecoration: "none", color: "black" }}
+                  >
+                    <ListItem disablePadding>
+                      <ListItemButton>
+                        <ListItemIcon>
+                          <SchoolIcon />
+                        </ListItemIcon>
+                        <ListItemText primary={"Question Bank"} />
+                      </ListItemButton>
+                    </ListItem>
+                  </Link>
                 </List>
                 {isNotMobile ? null : <Navigation />}
               </Box>
@@ -166,6 +182,11 @@ function App() {
                     exact
                     path="/CueCards/about"
                     element={<About isNotMobile={isNotMobile} />}
+                  />
+                  <Route
+                    exact
+                    path="/CueCards/questionbank"
+                    element={<QuestionBank isNotMobile={isNotMobile} />}
                   />
                 </Routes>
               </Container>

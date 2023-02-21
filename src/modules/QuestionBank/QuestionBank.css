@@ -1,0 +1,37 @@
+.QuestionBank__paper {
+  max-width: 80rem;
+  height: 80%;
+  padding: 1.5rem 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: space-evenly;
+  text-align: left;
+  box-shadow: 0px 0px 10px grey;
+  border-radius: 1rem;
+  overflow: scroll;
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+.QuestionBank__option {
+  cursor: pointer;
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+  margin: 1rem;
+}
+.QuestionBank__nextIcon {
+  cursor: pointer;
+}
+.QuestionBank__NextButton {
+  background-color: green;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 0.3rem;
+  color: white;
+  margin: 0 auto;
+}
+.QuestionBank__NextButton:disabled {
+  background-color: grey;
+  color: darkgray;
+  margin: "0 auto";
+}

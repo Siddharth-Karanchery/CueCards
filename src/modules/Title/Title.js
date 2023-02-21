@@ -17,15 +17,13 @@ function Title(props) {
 
   const isNotMobile = props.isNotMobile;
 
-  console.log("isNotMobile: ", isNotMobile);
-
   chapterRefs.current = overview.map(
     (chapter, i) => chapterRefs.current[i] ?? React.createRef()
   );
 
   const clickHandler = (e, element) => {
     e.preventDefault();
-    console.log("element: ", element);
+
     element.current.hidden = !element.current.hidden;
   };
 
