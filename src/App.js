@@ -81,7 +81,11 @@ function App() {
               className="App__Drawer"
             >
               <Box
-                sx={{ width: "250px" }}
+                sx={{
+                  width: "250px",
+                  backgroundColor: "#f1f58f",
+                  height: "100%",
+                }}
                 role="presentation"
                 //   onClick={toggleDrawer(anchor, false)}
                 //   onKeyDown={toggleDrawer(anchor, false)}

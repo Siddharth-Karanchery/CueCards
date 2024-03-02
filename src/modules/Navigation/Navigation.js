@@ -37,10 +37,11 @@ function Navigation() {
           expandIcon={<ExpandMoreIcon />}
           aria-controls="panel1a-content"
           id="panel1a-header"
+          sx={{ backgroundColor: "#f1f58f" }}
         >
           <Typography>Chapter No: {chapter.chapterNum}</Typography>
         </AccordionSummary>
-        <AccordionDetails>
+        <AccordionDetails sx={{ backgroundColor: "#f1f58f" }}>
           <Typography
             variant="h6"
             sx={{ cursor: "pointer" }}

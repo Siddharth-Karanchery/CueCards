@@ -2,18 +2,19 @@
 /* Hide scrollbar for Chrome, Safari and Opera */
 /* .example::-webkit-scrollbar {
   display: none;
-}
+}*/
 
-/* Hide scrollbar for IE, Edge and Firefox */
-.example {
+.App {
+  text-align: center;
+  background-color: #f1f58f;
+  min-height: 100vh;
+  font-family: "Poppins", sans-serif;
+  /* Hide scrollbar for IE, Edge and Firefox */
   -ms-overflow-style: none; /* IE and Edge */
   scrollbar-width: none; /* Firefox */
 }
-.App {
-  text-align: center;
-  background-color: #fefefe;
-  min-height: 100vh;
-  font-family: "Poppins", sans-serif;
+.App::-webkit-scrollbar {
+  display: none; /* Firefox */
 }
 .App__Header {
   display: flex;
